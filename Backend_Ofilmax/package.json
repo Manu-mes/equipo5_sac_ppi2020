@@ -1,0 +1,25 @@
+{
+  "name": "Backend_Ofilmax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValentinaCaicedo/Backend_Ofilmax.git"
+  },
+  "keywords": [],
+  "author": "Ofilmax",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ValentinaCaicedo/Backend_Ofilmax/issues"
+  },
+  "homepage": "https://github.com/ValentinaCaicedo/Backend_Ofilmax#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
