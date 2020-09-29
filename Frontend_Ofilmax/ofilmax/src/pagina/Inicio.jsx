@@ -10,7 +10,7 @@ class Inicio extends React.Component {
             <div className="row container vh-100  mt-4">
               <div className="col"></div>
               <div className="col-6 container vh-100  mt-4 text-center">
-              <img src="https://lh5.googleusercontent.com/QTPvw1qS5LFeztIZTXctavVMdY08vjkeztVfKHxMRRG0kmEFkMg3oqvKXzt6sqK_DwaLNassEQ=w1280" className="rounded" alt="" width= "170" height="160"/>
+              <img src="https://lh5.googleusercontent.com/CPzYqyqZnXTdVlG3Yzh1dvDuCKBRoaWDhZbFnfpEzwyAtCGZ32D-HL6JnRWocqFC9zLyQNzgtQ=w1280" className="rounded" alt="" width= "170" height="160"/>
                 <h5 className="text-center mt-4">Iniciar Sesión</h5>
                 <br />
                 <form >

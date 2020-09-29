@@ -12,7 +12,7 @@ class Navegacion extends React.Component {
               <a className="navbar-brand" href="#">
                 <img
                   alt=""
-                  src="https://lh6.googleusercontent.com/3oCYbe8DUhqS-JWx7Vj40yAHMK8aOrc43-3f42vHmCvvKKkL0ZKoT_uH31gHJ3TzY-v5PxEKXQ=w1280"
+                  src="https://lh5.googleusercontent.com/CPzYqyqZnXTdVlG3Yzh1dvDuCKBRoaWDhZbFnfpEzwyAtCGZ32D-HL6JnRWocqFC9zLyQNzgtQ=w1280"
                   width="40"
                   height="40"
                   className="d-inline-block align-top"
