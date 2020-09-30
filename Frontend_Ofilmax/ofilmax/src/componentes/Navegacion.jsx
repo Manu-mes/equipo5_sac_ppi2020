@@ -36,7 +36,7 @@ class Navegacion extends React.Component {
                     <a className="nav-link" href="#">Resultados</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Información</a>
+                    <a className="nav-link" href="#">Bienvenida</a>
                   </li>
                 </ul>
                 <a className="nav-link btn btn-light" href="#">Nosotros</a>
