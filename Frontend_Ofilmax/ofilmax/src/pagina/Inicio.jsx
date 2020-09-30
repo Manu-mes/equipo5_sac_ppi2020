@@ -13,7 +13,7 @@ class Inicio extends React.Component {
                 <br />
                 <form >
                   <div className="form-group">
-                    <label className="inputEmail">Correo Electronico</label>
+                    <label className="inputEmail">Electronico</label>
                     <input
                       type="email"
                       name="email"
