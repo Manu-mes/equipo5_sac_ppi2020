@@ -33,16 +33,7 @@ class Registro extends React.Component {
                       required
                     />
                   </div>
-                  <div className="form-group">
-                    <label>Confirma tu Contraseña</label>
-                    <input
-                      type="password"
-                      name="contrasena"
-                      id="inputPassword"
-                      className="form-control"
-                      required
-                    />
-                  </div>
+            
                   <div className="form-group">
                       <label for="exampleFormControlSelect1">Elige tu Rol</label>
                       <select className="form-control" id="exampleFormControlSelect1">
@@ -51,7 +42,7 @@ class Registro extends React.Component {
                           </select>
                 </div>
                   <Link to="/Bienvenida" button className=" btn btn-orange btn btn-info btn-block" type="submit">
-                    <strong>Registro</strong>
+                    <strong>Registrarme</strong>
                   </Link>
                 </form>
                 <br />
