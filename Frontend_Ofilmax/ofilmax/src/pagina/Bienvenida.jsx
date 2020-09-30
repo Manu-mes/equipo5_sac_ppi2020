@@ -10,7 +10,7 @@ class Bienvenida extends React.Component {
                 <br></br>
                 <br></br>
                 <div className="container">
-                <div className="card " >
+                <div className="card text-center " >
                     <img src="https://lh6.googleusercontent.com/rt53oXjeawqI6mpaIezKcy3DFcy2Dp-PIHl6sAopmrispAmvYn5GedeQn7L6klGNO4fbqdcSHg=w1280" className="rounded" alt="" width="250" height="250" align="center"/>
                     <div className="card-body">
                         <h5 className="card-title">Bienvenidos a Ofilamax</h5>
