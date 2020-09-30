@@ -23,9 +23,6 @@ class Navegacion extends React.Component {
               </button>
               <div className="collapse navbar-collapse" id="navbarText">
                 <ul className="navbar-nav mr-auto">
-                <li className="nav-item">
-                    <a className="nav-link active" href="#">Bienvenida</a>
-                  </li>
                   <li className="nav-item">
                     <a className="nav-link active" href="#">Inicio</a>
                   </li>
