@@ -6,7 +6,6 @@ class Panel_ev extends React.Component {
     render() {
         return (
             <div>
-                <Navegacion />
             </div>
         );
     }
