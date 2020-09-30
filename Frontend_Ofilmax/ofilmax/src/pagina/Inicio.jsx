@@ -1,11 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import '../imagenes/Logo.png';
 
 class Inicio extends React.Component {
     render() {
         return (
-          
             <div className="container vh-100  mt-4">
             <div className="row container vh-100  mt-4">
               <div className="col"></div>
