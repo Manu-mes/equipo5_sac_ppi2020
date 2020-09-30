@@ -47,11 +47,11 @@ class Registro extends React.Component {
                       <label for="exampleFormControlSelect1">Elige tu Rol</label>
                       <select className="form-control" id="exampleFormControlSelect1">
                           <option>Estudiante</option>
-                          <option>Do</option>
+                          <option>Docente</option>
                           </select>
                 </div>
                   <Link to="/Bienvenida" button className=" btn btn-orange btn btn-info btn-block" type="submit">
-                    <strong>Registrarme</strong>
+                    <strong>Registro</strong>
                   </Link>
                 </form>
                 <br />
