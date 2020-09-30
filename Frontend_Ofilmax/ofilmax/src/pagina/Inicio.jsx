@@ -33,7 +33,7 @@ class Inicio extends React.Component {
                     />
                   </div>
                   <Link to="/" button className=" btn btn-orange btn btn-info btn-block" type="submit">
-                    <strong>Iniciar</strong>
+                    <strong>Iniciar Sesión</strong>
                   </Link>
                 </form>
                 <br />
