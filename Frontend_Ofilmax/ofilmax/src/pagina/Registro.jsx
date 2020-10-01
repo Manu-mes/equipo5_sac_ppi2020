@@ -9,7 +9,7 @@ class Registro extends React.Component {
             <div className="row container vh-100  mt-4">
               <div className="col"></div>
               <div className="col-6 container vh-100  mt-4 text-center">
-              <img src="https://lh5.googleusercontent.com/TU9XRhF2VGXOk6P7P0Yf4rNM1qTFZPhhoK0y10gy3OBI1zCWB1ocRsS6vFViON3PZPiaBpIvYw=w1280" className="rounded" alt="" width= "170" height="160"/>
+              <img src="https://lh5.googleusercontent.com/-qiQnVrnubNKsI5NJbUzcMwHMdj1cRVdHYulLaVH3iA3EjGrqPQ_yZk1Lb1dp-uzIxQg2paFGg=w1280" className="rounded" alt="" width= "170" height="160"/>
                 <h5 className="text-center mt-4">Registrate</h5>
                 <br />
                 <form >

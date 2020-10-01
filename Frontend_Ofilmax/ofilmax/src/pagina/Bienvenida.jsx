@@ -11,7 +11,7 @@ class Bienvenida extends React.Component {
                 <br></br>
                 <div className="container">
                 <div className="card text-center " >
-                    <img src="https://lh6.googleusercontent.com/rt53oXjeawqI6mpaIezKcy3DFcy2Dp-PIHl6sAopmrispAmvYn5GedeQn7L6klGNO4fbqdcSHg=w1280" className="rounded col-md-2 offset-md-5" alt="" width="250" height="250"/>
+                    <img src="https://lh5.googleusercontent.com/-qiQnVrnubNKsI5NJbUzcMwHMdj1cRVdHYulLaVH3iA3EjGrqPQ_yZk1Lb1dp-uzIxQg2paFGg=w1280" className="rounded col-md-2 offset-md-5" alt="" width="250" height="250"/>
                     <div className="card-body">
                         <h5 className="card-title">¡Bienvenidos a Ofilmax!</h5>
                         <p className="card-text">Aquí evaluaremos tus conocimientos sobre las herramientas Ofimaticas,Word, PowerPoint y Excel.</p>
