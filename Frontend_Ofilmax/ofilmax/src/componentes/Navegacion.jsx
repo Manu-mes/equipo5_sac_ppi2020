@@ -24,16 +24,16 @@ class Navegacion extends React.Component {
               <div className="collapse navbar-collapse" id="navbarText">
                 <ul className="navbar-nav mr-auto">
                   <li className="nav-item">
-                    <a className="nav-link active" href="#">Inicio</a>
+                    <a className="nav-link" href="/">Inicio</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Evaluaciones</a>
+                    <a className="nav-link" href="/Panel_ev">Evaluaciones</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="#">Resultados</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Bienvenida</a>
+                    <a className="nav-link" href="/Bienvenida">Bienvenida</a>
                   </li>
                 </ul>
                 <a className="nav-link btn btn-light" href="#">Nosotros</a>
