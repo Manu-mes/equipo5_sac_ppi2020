@@ -25,13 +25,13 @@ class Panel_ev extends React.Component {
                         <div className="col-md-auto">
                             <div className="card-body">
                                 <h5 className="card-title text-center">Excel</h5>
-                                <Link to="" button type="button" class="btn btn-outline-success" ><img src="https://lh5.googleusercontent.com/VaST_4FLS0DhOUzBgwMIvTQQBBcRJPVhc7p5kkLfgmpfuHYWKI8LRnn_fe5op4uGhq4OHE4tZwWo7rxKz_rZdFs4yrzWdexXtJu5P0yJKc6slQQhowI=w1280" class="card-img-top" alt="..." /></Link>
+                                <Link to="" button type="button" class="btn btn-outline-success" ><img src="https://lh3.googleusercontent.com/qwEVF3sTP2NHoSxMMBD-wmPXnU-K8IFI5k8hSTX27RhlHk5LD0HX_SsEZRqZKpk_7uasCNHsNsrUSv3vAtvtBTEKYXCz_hG-tc1WH9Y2DCiK8d7Db_o=w1280" class="card-img-top" alt="..." /></Link>
                             </div>
                         </div>
                         <div className="col-md-auto">
                             <div className="card-body">
                                 <h5 className="card-title text-center">PowerPoint</h5>
-                                <Link to="" button type="button" class="btn btn-outline-danger" ><img src="" class="card-img-top" alt="..." /></Link>
+                                <Link to="" button type="button" class="btn btn-outline-danger" ><img src="https://lh5.googleusercontent.com/VaST_4FLS0DhOUzBgwMIvTQQBBcRJPVhc7p5kkLfgmpfuHYWKI8LRnn_fe5op4uGhq4OHE4tZwWo7rxKz_rZdFs4yrzWdexXtJu5P0yJKc6slQQhowI=w1280" class="card-img-top" alt="..." /></Link>
                             </div>
                         </div>
                     </div>
