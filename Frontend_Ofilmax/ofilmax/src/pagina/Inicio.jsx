@@ -8,7 +8,7 @@ class Inicio extends React.Component {
             <div className="row container vh-100  mt-4">
               <div className="col"></div>
               <div className="col-6 container vh-100  mt-4 text-center">
-              <img src="" className="rounded" alt="" width= "170" height="160"/>
+              <img src="https://lh5.googleusercontent.com/-qiQnVrnubNKsI5NJbUzcMwHMdj1cRVdHYulLaVH3iA3EjGrqPQ_yZk1Lb1dp-uzIxQg2paFGg=w1280" className="rounded" alt="" width= "170" height="160"/>
                 <h5 className="text-center mt-4">Iniciar Sesión</h5>
                 <br />
                 <form >
