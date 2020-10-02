@@ -19,7 +19,7 @@ class Panel_ev extends React.Component {
                             <div className="col-md-auto">
                                 <div className="card-body">
                                     <h5 className="card-title text-center">Word</h5>
-                                <Link to ="" button type="button" class="btn btn-outline-info" ><img src="https://lh3.googleusercontent.com/ScAtTXCkC4ebF46l56s5w0DcokZn7eyXn-hY87li44vfcdl9e4jcv3--X8ZYsJacIfnCvkxhbKfJOpO4D6KkHqtPxDmh5Q53KQzDCvMIwhVQpsjIGsk=w1280" class="card-img-top " alt="..." /></Link>
+                                <Link to ="" button type="button" class="btn btn-outline-info" ><img src="" class="card-img-top " alt="..." /></Link>
                                 </div>
                             </div>
                             <div className="col-md-auto">
