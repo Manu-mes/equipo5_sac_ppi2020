@@ -19,13 +19,13 @@ class Panel_ev extends React.Component {
                             <div className="col-md-auto">
                                 <div className="card-body">
                                     <h5 className="card-title text-center">Word</h5>
-                                <Link to ="" button type="button" class="btn btn-outline-info" ><img src="" class="card-img-top " alt="..." /></Link>
+                                <Link to ="" button type="button" class="btn btn-outline-info" ><img src="https://lh3.googleusercontent.com/IO0WOwN-KxtJ_NVZ8Gj0RoMf4_bQEINwKIC2og-OC3tjhyUuUxuBiMeEftZ3fXCl2Cp0vglfp9xOjqn0tjdnBTvPawa4gHPMTakqziY1dPB-CJ3ZYmc=w1280" class="card-img-top " alt="..." /></Link>
                                 </div>
                             </div>
                             <div className="col-md-auto">
                                 <div className="card-body">
                                     <h5 className="card-title text-center">Excel</h5>
-                                <Link to ="" button type="button" class="btn btn-outline-success" ><img src="https://lh6.googleusercontent.com/t1h-TvmykITR0dS_JwoGOvM0yn5QIT_QrtvGIN_HDWAD3urfC4h8037KkRgViaBz58ylLD0zXyob1IOpe3DDJ0qk0zLexJBKHxxSiJEARvY26CmwAw0=w1280" class="card-img-top" alt="..." /></Link>
+                                <Link to ="" button type="button" class="btn btn-outline-success" ><img src="" class="card-img-top" alt="..." /></Link>
                                 </div>
                             </div>
                             <div className="col-md-auto">
