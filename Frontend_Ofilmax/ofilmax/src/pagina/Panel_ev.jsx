@@ -1,5 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Word from '../imagenes/Word.png';
+import Excel from '../imagenes/Excel.png';
+import Powerpoint from '../imagenes/Powerpoint.png';
 import Navegacion from '../componentes/Navegacion';
 
 
@@ -19,19 +22,19 @@ class Panel_ev extends React.Component {
                             <div className="col-md-auto">
                                 <div className="card-body">
                                     <h5 className="card-title text-center">Word</h5>
-                                <Link to ="" button type="button" class="btn btn-outline-info" ><img src="https://lh3.googleusercontent.com/IO0WOwN-KxtJ_NVZ8Gj0RoMf4_bQEINwKIC2og-OC3tjhyUuUxuBiMeEftZ3fXCl2Cp0vglfp9xOjqn0tjdnBTvPawa4gHPMTakqziY1dPB-CJ3ZYmc=w1280" class="card-img-top " alt="..." /></Link>
+                                <Link to ="" button type="button" class="btn btn-outline-info" ><img src={Word} class="card-img-top " alt="..." /></Link>
                                 </div>
                             </div>
                             <div className="col-md-auto">
                                 <div className="card-body">
                                     <h5 className="card-title text-center">Excel</h5>
-                                <Link to ="" button type="button" class="btn btn-outline-success" ><img src="https://lh3.googleusercontent.com/h9wFPX4PgoCqKABrcC0W1J9XmPdb7vzsc9cBAcdDrw05a1F0q-plyIPn9erK1kHiTQcB8CFAjG6COZznOYUyEOlORCFlRRgAukDJDMgIh37mNzgE2AM=w1280" class="card-img-top" alt="..." /></Link>
+                                <Link to ="" button type="button" class="btn btn-outline-success" ><img src={Excel} class="card-img-top" alt="..." /></Link>
                                 </div>
                             </div>
                             <div className="col-md-auto">
                                 <div className="card-body">
                                     <h5 className="card-title text-center">PowerPoint</h5>
-                                <Link to ="" button type="button" class="btn btn-outline-danger" ><img src="https://lh4.googleusercontent.com/curmQJ5NDizlDTF_JM60BATH9W9MZCPDsWQuIAxrilLveH4bjgCpLkSb3jeyWlHGt4r-F09aS7A2qAjyHEVNhhhLWK-ZtH6WID0VTWcsidg_ACFCD7c=w1280" class="card-img-top" alt="..." /></Link>
+                                <Link to ="" button type="button" class="btn btn-outline-danger" ><img src={Powerpoint} class="card-img-top" alt="..." /></Link>
                                 </div>
                             </div>
                         </div>

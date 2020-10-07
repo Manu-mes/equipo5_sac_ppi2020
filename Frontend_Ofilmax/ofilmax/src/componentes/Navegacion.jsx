@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Logo from '../imagenes/Logo.png';
 // import '../src/index.css'
 
 class Navegacion extends React.Component {
@@ -12,7 +13,7 @@ class Navegacion extends React.Component {
               <a className="navbar-brand" href="#">
                 <img
                   alt=""
-                  src="https://lh5.googleusercontent.com/-qiQnVrnubNKsI5NJbUzcMwHMdj1cRVdHYulLaVH3iA3EjGrqPQ_yZk1Lb1dp-uzIxQg2paFGg=w1280"
+                  src={Logo}
                   width="40"
                   height="40"
                   className="d-inline-block align-top"
