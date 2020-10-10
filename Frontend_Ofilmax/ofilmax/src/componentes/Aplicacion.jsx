@@ -5,6 +5,8 @@ import Inicio from '../pagina/Inicio';
 import Registro from "../pagina/Registro";
 import Bienvenida from "../pagina/Bienvenida";
 import Panel_ev from "../pagina/Panel_ev";
+import Word from '../pagina/Word';
+
 
 
 
@@ -17,6 +19,7 @@ function Aplicacion() {
                 <Route exact path= '/Registro' component= {Registro} />
                 <Route exact path= '/Bienvenida' component= {Bienvenida} />
                 <Route exact path= '/Panel_ev' component= {Panel_ev} />
+                <Route exact path= '/Word' component= {Word} />
                 
             </Switch>
         </BrowserRouter>
