@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Flecha from '../imagenes/Flecha.png';
 import Word from '../imagenes/Word.png'
-import W_1 from '../imagenes/W_1.gif';
 import Navegacion from '../componentes/Navegacion';
 
 
@@ -28,7 +27,7 @@ class Word_ev extends React.Component {
                 </div>
                 <br></br>
                 <div className="row justify-content-md-center">
-                    <div className="col col-lg-6">
+                    <div className="col col-lg-7">
                         <div className="container ">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center  ">
@@ -40,7 +39,7 @@ class Word_ev extends React.Component {
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src={W_1} class="h-65 w-50" alt="..." />
+                                            <img src="https://steamuserimages-a.akamaihd.net/ugc/364030656455764292/D380E479859895E92F411D8A958043968B116DEA/" class="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
@@ -51,7 +50,7 @@ class Word_ev extends React.Component {
                 </div>
                 <br></br>
                 <div className="row justify-content-md-center">
-                    <div className="col col-lg-6">
+                    <div className="col col-lg-7">
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
@@ -81,7 +80,7 @@ class Word_ev extends React.Component {
                 </div>
                 <br></br>
                 <div className="row justify-content-md-center">
-                    <div className="col col-lg-6">
+                    <div className="col col-lg-7">
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
@@ -104,7 +103,7 @@ class Word_ev extends React.Component {
                 </div>
                 <br></br>
                 <div className="row justify-content-md-center">
-                    <div className="col col-lg-6">
+                    <div className="col col-lg-7">
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
@@ -134,7 +133,7 @@ class Word_ev extends React.Component {
                 </div>
                 <br></br>
                 <div className="row justify-content-md-center">
-                    <div className="col col-lg-6">
+                    <div className="col col-lg-7">
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
@@ -157,7 +156,7 @@ class Word_ev extends React.Component {
                 </div>
                 <br></br>
                 <div className="row justify-content-md-center">
-                    <div className="col col-lg-6">
+                    <div className="col col-lg-7">
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
@@ -188,7 +187,7 @@ class Word_ev extends React.Component {
                 <br></br>
                 <br></br>
                 <div className="row justify-content-md-center">
-                    <div className="col col-lg-6">
+                    <div className="col col-lg-7">
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
