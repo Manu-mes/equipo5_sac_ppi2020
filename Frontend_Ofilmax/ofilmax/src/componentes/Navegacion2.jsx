@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Logo from '../imagenes/Logo.png';
 // import '../src/index.css'
 
-class Navegacion extends React.Component {
+class Navegacion2 extends React.Component {
   render() {
     return (
       <div>
@@ -25,16 +25,16 @@ class Navegacion extends React.Component {
               <div className="collapse navbar-collapse" id="navbarText">
                 <ul className="navbar-nav mr-auto">
                   <li className="nav-item">
-                    <a className="nav-link" href="/">Inicio</a>
+                    <a className="nav-link" href="/PaginaInicial2">Inicio</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/Panel_ev">Evaluaciones</a>
+                    <a className="nav-link" href="">Editar y Crear</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/Resultados">Resultados</a>
+                    <a className="nav-link" href="">Resultados</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/Bienvenida">Bienvenida</a>
+                    <a className="nav-link" href="/Bienvenida2">Bienvenida</a>
                   </li>
                 </ul>
                 <a className="nav-link btn btn-light" href="#">Nosotros</a>
@@ -53,4 +53,4 @@ class Navegacion extends React.Component {
   }
 }
 
-export default Navegacion;
+export default Navegacion2;

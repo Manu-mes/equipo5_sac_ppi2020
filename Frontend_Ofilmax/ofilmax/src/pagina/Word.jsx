@@ -29,12 +29,12 @@ class Word_ev extends React.Component {
                 <br></br>
                 <div className="row justify-content-md-center">
                     <div className="col col-lg-6">
-                        <div className="container">
+                        <div className="container ">
                             <div className="col-md-auto ">
-                                <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center">
+                                <div className=" card-deck row justify-content-md-center  ">
+                                    <div className="card w-50 text-center card border-primary mb-3">
                                         <div className="card-body ">
-                                            <h5 className="card-title">Pregunta N°1</h5>
+                                            <h5 className="card-title text-primary">Pregunta N°1</h5>
                                             <p className="card-text">¿Microsoft Word es un procesador de texto?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
@@ -55,9 +55,9 @@ class Word_ev extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center">
+                                    <div className="card w-50 text-center card border-primary mb-3">
                                         <div className="card-body ">
-                                            <h5 className="card-title">Pregunta N°2</h5>
+                                            <h5 className="card-title text-primary">Pregunta N°2</h5>
                                             <p className="card-text">¿Desde que menú podemos insertar una imagen?</p>
                                             <div className="form-check">
                                                 <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> Menú INICIO
@@ -85,9 +85,9 @@ class Word_ev extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center">
+                                    <div className="card w-50 text-center card border-primary mb-3">
                                         <div className="card-body ">
-                                            <h5 className="card-title">Pregunta N°3</h5>
+                                            <h5 className="card-title text-primary">Pregunta N°3</h5>
                                             <p className="card-text">¿CTRL+P es el método abreviado para imprimir un documento?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
@@ -108,9 +108,9 @@ class Word_ev extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center">
+                                    <div className="card w-50 text-center card border-primary mb-3">
                                         <div className="card-body ">
-                                            <h5 className="card-title">Pregunta N°4</h5>
+                                            <h5 className="card-title text-primary">Pregunta N°4</h5>
                                             <p className="card-text">¿Cuál es el comando para pegar texto?</p>
                                             <div className="form-check">
                                                 <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> CTRL + D
@@ -138,9 +138,9 @@ class Word_ev extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center">
+                                    <div className="card w-50 text-center card border-primary mb-3">
                                         <div className="card-body ">
-                                            <h5 className="card-title">Pregunta N°5</h5>
+                                            <h5 className="card-title text-primary">Pregunta N°5</h5>
                                             <p className="card-text">¿En Word, podemos agregar portadas a nuestro trabajos?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
@@ -161,9 +161,9 @@ class Word_ev extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center">
+                                    <div className="card w-50 text-center card border-primary mb-3">
                                         <div className="card-body ">
-                                            <h5 className="card-title">Pregunta N°6</h5>
+                                            <h5 className="card-title text-primary">Pregunta N°6</h5>
                                             <p className="card-text">¿Cual es el Atajo de teclado para guardar un documento de Word?</p>
                                             <div className="form-check">
                                                 <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> CTRL + S
@@ -192,9 +192,9 @@ class Word_ev extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center">
+                                    <div className="card w-50 text-center card border-primary mb-3">
                                         <div className="card-body ">
-                                            <h5 className="card-title">Pregunta N°7</h5>
+                                            <h5 className="card-title text-primary">Pregunta N°7</h5>
                                             <p className="card-text">¿En Word nos permite corregir la ortografía y gramática de un documento?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
