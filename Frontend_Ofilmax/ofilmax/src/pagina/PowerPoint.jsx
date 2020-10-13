@@ -34,12 +34,12 @@ class PowerPoit_ev extends React.Component {
                                     <div className="card w-50 text-center card border-primary mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-primary">Pregunta N°1</h5>
-                                            <p className="card-text">¿Microsoft Word es un procesador de texto?</p>
+                                            <p className="card-text">¿Power Point es un prograna diseñado para hacer presentaciones?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://steamuserimages-a.akamaihd.net/ugc/364030656455764292/D380E479859895E92F411D8A958043968B116DEA/" class="h-65 w-50" alt="..." />
+                                            <img src="https://4.bp.blogspot.com/-6pwF-lQ3OrU/XBWcmQcYGWI/AAAAAAAAA2o/nxi7RbD4ysAQH_aIe_rOqau6xYPYTccDQCLcBGAs/s1600/pp.gif" class="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
