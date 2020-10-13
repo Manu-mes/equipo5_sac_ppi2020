@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Flecha from '../imagenes/Flecha.png';
-import Word from '../imagenes/Word.png'
+import Powerpoint from '../imagenes/Powerpoint.png'
 import Navegacion from '../componentes/Navegacion';
 
 
 
-class PowerPoit_ev extends React.Component {
+class PowerPoit extends React.Component {
     render() {
         return (
             <div>
@@ -19,7 +19,7 @@ class PowerPoit_ev extends React.Component {
                     <br></br>
                     <div className="container">
                         <div className="row justify-content-md-center">
-                            <div className="col col-lg-2"><img src={Word} className="..." alt="..." /></div>
+                            <div className="col col-lg-2"><img src={Powerpoint} className="..." alt="..." /></div>
                             <div className="col-md-auto"><p className="text-center card-title"><br></br>¡Hola!<br></br>
                             Mi nombre es Power Point, o tambien me llaman <br></br> Diapositivas, aqui evaluaremos<br></br> tus conocimientos de está <br></br>herramienta ofimatica <br></br>¡ Diviertete!</p></div>
                         </div>
@@ -87,12 +87,12 @@ class PowerPoit_ev extends React.Component {
                                     <div className="card w-50 text-center card border-primary mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-primary">Pregunta N°3</h5>
-                                            <p className="card-text">¿CTRL+P es el método abreviado para imprimir un documento?</p>
+                                            <p className="card-text">¿Para agragar una transión debo de dar clic en la ficha diseño?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://support.epson-europe.com/onlineguides/es/sp2100/ref_g/images/21a21.gif" className="h-65 w-50" alt="..." />
+                                            <img src="https://media.tenor.com/images/b86e84b7138cdbb20e42e86e161c2fdb/tenor.gif" className="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
@@ -110,19 +110,19 @@ class PowerPoit_ev extends React.Component {
                                     <div className="card w-50 text-center card border-primary mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-primary">Pregunta N°4</h5>
-                                            <p className="card-text">¿Cuál es el comando para pegar texto?</p>
+                                            <p className="card-text">¿Cuál es la tecla que activa la presentacion?</p>
                                             <div className="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> CTRL + D
+                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> La tecla de presentacion
                                             </div>
                                             <div class="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" aria-label="..." /> CTRL + C
+                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" aria-label="..." /> Vista de lectura
                                             </div>
                                             <div className="form-check">
-                                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" aria-label="..." />  CTRL + V
+                                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" aria-label="..." />  Clasificador
                                             </div>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://4.bp.blogspot.com/-f8jt6o9W0q0/VhlVmgFd4EI/AAAAAAAAACw/zKCp2d3lUGw/s1600/711529_typing-keyboard-dennou-coil.gif" className="h-65 w-50" alt="..." />
+                                            <img src="https://media1.tenor.com/images/9614339ec0eae1bcfdaa976f3b7b0cac/tenor.gif?itemid=14535347" className="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
