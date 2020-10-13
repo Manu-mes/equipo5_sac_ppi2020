@@ -6,7 +6,7 @@ import Navegacion from '../componentes/Navegacion';
 
 
 
-class Word_ev extends React.Component {
+class PowerPoit_ev extends React.Component {
     render() {
         return (
             <div>
@@ -220,5 +220,5 @@ class Word_ev extends React.Component {
         );
     }
 }
-export default Word_ev;
+export default PowerPoint_ev;
 
