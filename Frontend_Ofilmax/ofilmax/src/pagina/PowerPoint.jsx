@@ -6,7 +6,7 @@ import Navegacion from '../componentes/Navegacion';
 
 
 
-class PowerPoit extends React.Component {
+class Powerpoit extends React.Component {
     render() {
         return (
             <div>
@@ -220,5 +220,5 @@ class PowerPoit extends React.Component {
         );
     }
 }
-export default PowerPoint;
+export default Powerpoint;
 
