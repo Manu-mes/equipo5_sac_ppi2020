@@ -21,7 +21,7 @@ class PowerPoit_ev extends React.Component {
                         <div className="row justify-content-md-center">
                             <div className="col col-lg-2"><img src={Word} className="..." alt="..." /></div>
                             <div className="col-md-auto"><p className="text-center card-title"><br></br>¡Hola!<br></br>
-                            Mi nombre es Word, o tambien me llaman <br></br> Procesador de Texto, aqui evaluaremos<br></br> tus conocimientos de está <br></br>herramienta ofimatica <br></br>¡ Diviertete!</p></div>
+                            Mi nombre es Power Point, o tambien me llaman <br></br> Diapositivas, aqui evaluaremos<br></br> tus conocimientos de está <br></br>herramienta ofimatica <br></br>¡ Diviertete!</p></div>
                         </div>
                     </div>
                 </div>
