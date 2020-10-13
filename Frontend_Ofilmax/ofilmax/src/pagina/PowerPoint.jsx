@@ -15,7 +15,7 @@ class PowerPoit_ev extends React.Component {
                     <br></br>
                     <Link to="/Panel_ev" class="btn"><img src={Flecha} class="" alt="..." /></Link>
                     <br></br>
-                    <h4 className="text-center ">¡Bienvenido a la evaluación de Word!</h4>
+                    <h4 className="text-center ">¡Bienvenido a la evaluación de Power Point!</h4>
                     <br></br>
                     <div className="container">
                         <div className="row justify-content-md-center">
