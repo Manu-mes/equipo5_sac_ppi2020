@@ -140,12 +140,12 @@ class PowerPoit extends React.Component {
                                     <div className="card w-50 text-center card border-primary mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-primary">Pregunta N°5</h5>
-                                            <p className="card-text">¿En Word, podemos agregar portadas a nuestro trabajos?</p>
+                                            <p className="card-text">¿En Power Point, podemos personalizar nuestra presentación?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://media0.giphy.com/media/3o7TKUZfJKUKuSWTZe/200.gif" className="h-65 w-50" alt="..." />
+                                            <img src="https://akns-images.eonline.com/eol_images/Entire_Site/2016026/rs_500x278-160126073014-2359694cc329477fd83951c1da121d98.gif?fit=around|500:auto&output-quality=90&crop=500:auto;center,top" className="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
@@ -210,9 +210,9 @@ class PowerPoit extends React.Component {
                 </div>
                 <br></br>
                 <div className="container col-md-5">
-                <Link to="/confirmacion" button className=" btn btn-orange btn btn-info btn-block" type="submit">
-                            <strong>Finalizar</strong>
-                        </Link>
+                    <Link to="/confirmacion" button className=" btn btn-orange btn btn-info btn-block" type="submit">
+                        <strong>Finalizar</strong>
+                    </Link>
                 </div>
                 <br></br>
                 <br></br>
@@ -220,5 +220,5 @@ class PowerPoit extends React.Component {
         );
     }
 }
-export default PowerPoint_ev;
+export default PowerPoint;
 
