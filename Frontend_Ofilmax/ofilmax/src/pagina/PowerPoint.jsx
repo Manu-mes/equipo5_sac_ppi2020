@@ -57,19 +57,19 @@ class PowerPoit_ev extends React.Component {
                                     <div className="card w-50 text-center card border-primary mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-primary">Pregunta N°2</h5>
-                                            <p className="card-text">¿Desde que menú podemos insertar una imagen?</p>
+                                            <p className="card-text">¿Como añado una nueva diapositiva?</p>
                                             <div className="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> Menú INICIO
+                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> Menú ARCHIVO
                                             </div>
                                             <div class="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" aria-label="..." /> Menú VISTA
+                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" aria-label="..." /> Menú REVISAR
                                             </div>
                                             <div className="form-check">
-                                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" aria-label="..." /> Menú INSERTAR
+                                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" aria-label="..." /> Menú INICIO-NUEVA DIAPOSTIVA
                                             </div>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://armepaquetesdesoftware.files.wordpress.com/2016/11/auydwkqyw3h24dgpv7sx.jpg?w=800" class="h-65 w-50" alt="..." />
+                                            <img src="https://gifimage.net/wp-content/uploads/2017/11/gif-power-point-6.gif" class="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
