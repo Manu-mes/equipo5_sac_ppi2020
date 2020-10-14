@@ -39,7 +39,7 @@ class Excel extends React.Component {
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://cdn.exceltotal.com/wp-content/uploads/2012/01/ingresar-formulas-en-excel-02.gif" class="h-65 w-50" alt="..." />
+                                            <img src="https://vivirsalud.cl/wp-content/uploads/2019/11/excel-icons-animation.gif" class="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
@@ -57,19 +57,19 @@ class Excel extends React.Component {
                                     <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
                                             <h5 className="card-title text-success">Pregunta N°2</h5>
-                                            <p className="card-text">¿Como añado una nueva diapositiva?</p>
+                                            <p className="card-text">Cuando se introduce una fórmula en una celda, lo primero que hay que introducir es:</p>
                                             <div className="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> Menú ARCHIVO
+                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> Comillas
                                             </div>
                                             <div class="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" aria-label="..." /> Menú REVISAR
+                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" aria-label="..." /> Paréntesis
                                             </div>
                                             <div className="form-check">
-                                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" aria-label="..." /> Menú INICIO-NUEVA DIAPOSTIVA
+                                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" aria-label="..." /> El signo igual
                                             </div>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://wideo.co/wp-content/uploads/2017/11/Gif-Presentation-mode.gif" class="h-65 w-50" alt="..." />
+                                            <img src="https://www.excelfrog.com/tuto/b/8.gif" class="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
