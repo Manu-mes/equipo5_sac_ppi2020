@@ -160,7 +160,7 @@ class Excel extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-danger mb-3">
+                                    <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
                                             <h5 className="card-title text-danger">Pregunta N°6</h5>
                                             <p className="card-text">¿Como se agrega audio a una presentación?</p>
@@ -191,7 +191,7 @@ class Excel extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-danger mb-3">
+                                    <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
                                             <h5 className="card-title text-danger">Pregunta N°7</h5>
                                             <p className="card-text">¿Es posible colar la cantidad de diapositivas que necesitamos antes de colocar el contenido en cada una?</p>
