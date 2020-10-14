@@ -28,7 +28,7 @@ class Panel_ev extends React.Component {
                             <div className="col-md-auto">
                                 <div className="card-body">
                                     <h4 className="text-center">Excel</h4>
-                                <Link to ="" button type="button" class="btn btn-outline-success" ><img src={Excel} class="card-img-top" alt="..." /></Link>
+                                <Link to ="/Excel" button type="button" class="btn btn-outline-success" ><img src={Excel} class="card-img-top" alt="..." /></Link>
                                 </div>
                             </div>
                             <div className="col-md-auto">
