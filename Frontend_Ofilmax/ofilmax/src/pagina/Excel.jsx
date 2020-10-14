@@ -194,12 +194,12 @@ class Excel extends React.Component {
                                     <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
                                             <h5 className="card-title text-success">Pregunta N°7</h5>
-                                            <p className="card-text">¿Es posible colar la cantidad de diapositivas que necesitamos antes de colocar el contenido en cada una?</p>
+                                            <p className="card-text">¿El icono de la brochita nos sirve para copiar de una celda a ota?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://lh3.googleusercontent.com/proxy/34rN5J2R8mXm3zplAHkIgrpNSqRptobFf7sos3a9bNGr8erWZ4aCqHMmevq0K7dtt06OZIsYWPT2GTevb9JltcWL4iYDMfk0Y4ayU5z0ZqeRAO1u0gemS1tCbnUQMYKdxek" className="h-65 w-50" alt="..." />
+                                            <img src="https://i.gifer.com/WonI.gif" className="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
