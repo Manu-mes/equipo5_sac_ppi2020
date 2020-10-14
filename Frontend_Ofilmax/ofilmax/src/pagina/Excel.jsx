@@ -34,12 +34,12 @@ class Excel extends React.Component {
                                     <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
                                             <h5 className="card-title text-success">Pregunta N°1</h5>
-                                            <p className="card-text">¿Power Point es un prograna diseñado para hacer presentaciones?</p>
+                                            <p className="card-text">¿La intersección entre una fila y una columna se denomina celda?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://4.bp.blogspot.com/-6pwF-lQ3OrU/XBWcmQcYGWI/AAAAAAAAA2o/nxi7RbD4ysAQH_aIe_rOqau6xYPYTccDQCLcBGAs/s1600/pp.gif" class="h-65 w-50" alt="..." />
+                                            <img src="https://cdn.exceltotal.com/wp-content/uploads/2012/01/ingresar-formulas-en-excel-02.gif" class="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
