@@ -162,7 +162,7 @@ class Excel extends React.Component {
                                 <div className=" card-deck row justify-content-md-center ">
                                     <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
-                                            <h5 className="card-title text-danger">Pregunta N°6</h5>
+                                            <h5 className="card-title text-success">Pregunta N°6</h5>
                                             <p className="card-text">¿Como se agrega audio a una presentación?</p>
                                             <div className="form-check">
                                                 <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> Menú INSERTAR-PELÍCULAS Y SONIDOS
@@ -193,7 +193,7 @@ class Excel extends React.Component {
                                 <div className=" card-deck row justify-content-md-center ">
                                     <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
-                                            <h5 className="card-title text-danger">Pregunta N°7</h5>
+                                            <h5 className="card-title text-success">Pregunta N°7</h5>
                                             <p className="card-text">¿Es posible colar la cantidad de diapositivas que necesitamos antes de colocar el contenido en cada una?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
