@@ -87,12 +87,12 @@ class Excel extends React.Component {
                                     <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
                                             <h5 className="card-title text-success">Pregunta N°3</h5>
-                                            <p className="card-text">¿Para agragar una transión debo de dar clic en la ficha diseño?</p>
+                                            <p className="card-text">¿Las etiquetas se utlizan para ayudarnos a identificar la información?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://media.tenor.com/images/b86e84b7138cdbb20e42e86e161c2fdb/tenor.gif" className="h-65 w-50" alt="..." />
+                                            <img src="https://tecpro-digital.com/wp-content/uploads/2019/12/Video_19-12-03_21-25-46.gif" className="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
