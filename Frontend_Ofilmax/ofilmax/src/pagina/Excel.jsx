@@ -107,7 +107,7 @@ class Excel extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-danger mb-3">
+                                    <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
                                             <h5 className="card-title text-danger">Pregunta N°4</h5>
                                             <p className="card-text">¿Cuál es la tecla que activa la presentacion?</p>
@@ -137,7 +137,7 @@ class Excel extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-danger mb-3">
+                                    <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
                                             <h5 className="card-title text-danger">Pregunta N°5</h5>
                                             <p className="card-text">¿En Power Point, podemos personalizar nuestra presentación?</p>
