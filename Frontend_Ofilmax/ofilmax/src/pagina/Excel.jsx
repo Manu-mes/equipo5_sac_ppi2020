@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Flecha from '../imagenes/Flecha.png';
-import Powerpoint from '../imagenes/Powerpoint.png'
+import Powerpoint from ''
 import Navegacion from '../componentes/Navegacion';
 
 
