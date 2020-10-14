@@ -54,7 +54,7 @@ class Excel extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-danger mb-3">
+                                    <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
                                             <h5 className="card-title text-danger">Pregunta N°2</h5>
                                             <p className="card-text">¿Como añado una nueva diapositiva?</p>
@@ -84,7 +84,7 @@ class Excel extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-danger mb-3">
+                                    <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
                                             <h5 className="card-title text-danger">Pregunta N°3</h5>
                                             <p className="card-text">¿Para agragar una transión debo de dar clic en la ficha diseño?</p>
