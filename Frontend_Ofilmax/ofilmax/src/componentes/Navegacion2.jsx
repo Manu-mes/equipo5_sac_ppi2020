@@ -28,16 +28,16 @@ class Navegacion2 extends React.Component {
                     <a className="nav-link" href="/PaginaInicial2">Inicio</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="">Editar y Crear</a>
+                    <a className="nav-link" href="/EditaryCrear">Editar y Crear</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="">Resultados</a>
+                    <a className="nav-link" href="/Resultados_p">Resultados</a>
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="/Bienvenida2">Bienvenida</a>
                   </li>
                 </ul>
-                <a className="nav-link btn btn-light" href="#">Nosotros</a>
+                <a className="nav-link btn btn-light" href="/">Nosotros</a>
                 <Link to="/Inicio" className="nav-link btn btn-light" href="#">Salir</Link>
                 <button className=" btn btn-light navbar-button">
                   <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-gear-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

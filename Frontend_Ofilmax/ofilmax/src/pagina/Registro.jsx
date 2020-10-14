@@ -46,14 +46,7 @@ class Registro extends React.Component {
                   required
                 />
               </div>
-              <div className="form-group">
-                <label for="exampleFormControlSelect1">Elige tu Rol</label>
-                <select className="form-control" id="exampleFormControlSelect1">
-                  <option>Estudiante</option>
-                  <option>Docente</option>
-                </select>
-              </div>
-              <Link to="/Bienvenida" button className=" btn btn-orange btn btn-info btn-block" type="submit">
+              <Link to="/Rol" button className=" btn btn-orange btn btn-info btn-block" type="submit">
                 <strong>Registrarme</strong>
               </Link>
             </form>
