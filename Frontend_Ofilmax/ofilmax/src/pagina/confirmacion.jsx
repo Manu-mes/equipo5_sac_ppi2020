@@ -19,7 +19,7 @@ class confirmacion extends React.Component {
                     <div className="card-body">
                         <h5 className="card-title">¡Genial!</h5>
                         <p className="card-text">Completaste la evaluación correctamente y ya fue enviada a tu profesor</p>
-                        <p className="card-text">En la parte superior encontraras la barra de navegación, da Click en "Resultados" para ver el puntaje obtenido <br></br></p>
+                        <p className="card-text">En la parte superior encontraras la barra de navegación, da Click en "Resultados" para ver el puntaje obtenido en cada una de las evaluaciones <br></br></p>
                         <br></br>
                         <div className="row justify-content-md-center">
                             <div className="col col-lg-2"> <Link to="/" button className=" btn btn-orange btn btn-info btn-block" type="submit">

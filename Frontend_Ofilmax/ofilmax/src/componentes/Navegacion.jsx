@@ -7,7 +7,7 @@ class Navegacion extends React.Component {
   render() {
     return (
       <div>
-        <div className="Navbar">
+        <div className="Navbar ">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className='container'>
               <a className="navbar-brand" href="#">
@@ -37,7 +37,7 @@ class Navegacion extends React.Component {
                     <a className="nav-link" href="/Bienvenida">Bienvenida</a>
                   </li>
                 </ul>
-                <a className="nav-link btn btn-light" href="#">Nosotros</a>
+                <a className="nav-link btn btn-light" href="/">Nosotros</a>
                 <Link to="/Inicio" className="nav-link btn btn-light" href="#">Salir</Link>
                 <button className=" btn btn-light navbar-button">
                   <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-gear-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">

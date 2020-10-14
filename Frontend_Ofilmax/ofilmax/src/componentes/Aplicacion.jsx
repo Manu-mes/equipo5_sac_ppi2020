@@ -12,6 +12,9 @@ import confirmacion from '../pagina/confirmacion';
 import Resultados from "../pagina/Resultados";
 import PaginaInicial2 from '../pagina/PaginaInicial2';
 import Bienvenida2 from '../pagina/Bienvenida2';
+import Resultados_p from '../pagina/Resultados_p';
+import Rol from "../pagina/Rol";
+import EditaryCrear from "../pagina/EditaryCrear";
 
 
 
@@ -32,6 +35,9 @@ function Aplicacion() {
                 <Route exact path= '/Resultados' component= {Resultados} />
                 <Route exact path= '/PaginaInicial2' component= {PaginaInicial2} />
                 <Route exact path= '/Bienvenida2' component= {Bienvenida2} />
+                <Route exact path= '/Resultados_p' component= {Resultados_p} />
+                <Route exact path= '/Rol' component= {Rol} />
+                <Route exact path= '/EditaryCrear' component= {EditaryCrear} />
                 
             </Switch>
         </BrowserRouter>
