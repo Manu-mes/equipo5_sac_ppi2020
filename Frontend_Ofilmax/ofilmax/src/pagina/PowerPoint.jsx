@@ -160,7 +160,7 @@ class PowerPoint extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-primary mb-3">
+                                    <div className="card w-50 text-center card border-danger mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-primary">Pregunta N°6</h5>
                                             <p className="card-text">¿Cual es el Atajo de teclado para guardar un documento de Word?</p>
@@ -191,7 +191,7 @@ class PowerPoint extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-primary mb-3">
+                                    <div className="card w-50 text-center card border-danger mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-primary">Pregunta N°7</h5>
                                             <p className="card-text">¿En Word nos permite corregir la ortografía y gramática de un documento?</p>
