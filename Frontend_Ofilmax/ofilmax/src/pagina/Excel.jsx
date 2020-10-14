@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Flecha from '../imagenes/Flecha.png';
-import excel from '../imagenes/excel.png';
+import Excel from '../imagenes/Excel.png';
 import Navegacion from '../componentes/Navegacion';
 
 
 
-class Excel extends React.Component {
+class excel extends React.Component {
     render() {
         return (
             <div>
@@ -19,7 +19,7 @@ class Excel extends React.Component {
                     <br></br>
                     <div className="container">
                         <div className="row justify-content-md-center">
-                            <div className="col col-lg-2"><img src={excel} className="..." alt="..." /></div>
+                            <div className="col col-lg-2"><img src={Excel} className="..." alt="..." /></div>
                             <div className="col-md-auto"><p className="text-center card-title"><br></br>¡Hola!<br></br>
                             Mi nombre es Excel, o tambien me llaman <br></br> Hojas de Calculo, aqui evaluaremos<br></br> tus conocimientos de está <br></br>herramienta ofimatica <br></br>¡ Diviertete!</p></div>
                         </div>
@@ -220,5 +220,5 @@ class Excel extends React.Component {
         );
     }
 }
-export default Excel;
+export default excel;
 
