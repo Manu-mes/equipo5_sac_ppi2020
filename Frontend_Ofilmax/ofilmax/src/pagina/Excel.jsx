@@ -110,19 +110,19 @@ class Excel extends React.Component {
                                     <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
                                             <h5 className="card-title text-success">Pregunta N°4</h5>
-                                            <p className="card-text">¿Cuál es la tecla que activa la presentacion?</p>
+                                            <p className="card-text">En una hoja de cálculo hay tres tipos de datos fundamentales:</p>
                                             <div className="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> La tecla de presentacion
+                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> Datos, palabras y números.
                                             </div>
                                             <div class="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" aria-label="..." /> Vista de lectura
+                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" aria-label="..." /> Ecuaciones, datos y números.
                                             </div>
                                             <div className="form-check">
-                                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" aria-label="..." />  Clasificador
+                                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" aria-label="..." />  Números, fórmulas y etiquetas
                                             </div>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://media1.tenor.com/images/9614339ec0eae1bcfdaa976f3b7b0cac/tenor.gif?itemid=14535347" className="h-65 w-50" alt="..." />
+                                            <img src="https://rte.mx/wp-content/uploads/2020/05/LinesCreatives_animation-9.gif" className="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
