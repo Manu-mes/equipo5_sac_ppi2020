@@ -7,6 +7,7 @@ import Bienvenida from "../pagina/Bienvenida";
 import Panel_ev from "../pagina/Panel_ev";
 import Word from '../pagina/Word';
 import PowerPoint from '../pagina/PowerPoint';
+import Excel from '../pagina/Excel';
 import confirmacion from '../pagina/confirmacion';
 import Resultados from "../pagina/Resultados";
 import PaginaInicial2 from '../pagina/PaginaInicial2';
@@ -26,6 +27,7 @@ function Aplicacion() {
                 <Route exact path= '/Panel_ev' component= {Panel_ev} />
                 <Route exact path= '/Word' component= {Word} />
                 <Route exact path= '/PowerPoint' component= {PowerPoint} />
+                <Route exact path= '/Excel' component= {Excel} />
                 <Route exact path= '/confirmacion' component= {confirmacion} />
                 <Route exact path= '/Resultados' component= {Resultados} />
                 <Route exact path= '/PaginaInicial2' component= {PaginaInicial2} />
