@@ -165,13 +165,13 @@ class PowerPoint extends React.Component {
                                             <h5 className="card-title text-danger">Pregunta N°6</h5>
                                             <p className="card-text">¿Como se agrega audio a una presentación?</p>
                                             <div className="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> CTRL + S
+                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> Menú INSERTAR-PELÍCULAS Y SONIDOS
                                             </div>
                                             <div class="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" aria-label="..." /> CTRL + G
+                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" aria-label="..." /> Menú REVISAR
                                             </div>
                                             <div className="form-check">
-                                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" aria-label="..." />  CTRL + D
+                                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" aria-label="..." />  Menú ARCHIVO
                                             </div>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
