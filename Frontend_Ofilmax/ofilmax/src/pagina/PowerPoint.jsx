@@ -175,7 +175,7 @@ class PowerPoint extends React.Component {
                                             </div>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://media.tenor.com/images/9a2ad8441f0c9d719ac9d7eaa58cdf11/tenor.gif" className="h-65 w-50" alt="..." />
+                                            <img src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1530516099/content-items/002/408/710/LOCUCION_FONDO_720-original.gif?1530516099" className="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
