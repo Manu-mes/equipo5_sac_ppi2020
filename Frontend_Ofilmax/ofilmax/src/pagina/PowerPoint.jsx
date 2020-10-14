@@ -54,7 +54,7 @@ class PowerPoint extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-primary mb-3">
+                                    <div className="card w-50 text-center card border-danger mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-primary">Pregunta N°2</h5>
                                             <p className="card-text">¿Como añado una nueva diapositiva?</p>
@@ -84,7 +84,7 @@ class PowerPoint extends React.Component {
                         <div className="container">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-primary mb-3">
+                                    <div className="card w-50 text-center card border-danger mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-primary">Pregunta N°3</h5>
                                             <p className="card-text">¿Para agragar una transión debo de dar clic en la ficha diseño?</p>
@@ -145,7 +145,7 @@ class PowerPoint extends React.Component {
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://akns-images.eonline.com/eol_images/Entire_Site/2016026/rs_500x278-160126073014-2359694cc329477fd83951c1da121d98.gif?fit=around|500:auto&output-quality=90&crop=500:auto;center,top" className="h-65 w-50" alt="..." />
+                                            <img src="https://atrevete.academy/blog/wp-content/uploads/2020/03/giphy-3.gif" className="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
