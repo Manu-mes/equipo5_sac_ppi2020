@@ -6,7 +6,7 @@ import Navegacion from '../componentes/Navegacion';
 
 
 
-class Powerpoit extends React.Component {
+class PowerPoint extends React.Component {
     render() {
         return (
             <div>
@@ -31,9 +31,9 @@ class Powerpoit extends React.Component {
                         <div className="container ">
                             <div className="col-md-auto ">
                                 <div className=" card-deck row justify-content-md-center  ">
-                                    <div className="card w-50 text-center card border-primary mb-3">
+                                    <div className="card w-50 text-center card border-danger mb-3">
                                         <div className="card-body ">
-                                            <h5 className="card-title text-primary">Pregunta N°1</h5>
+                                            <h5 className="card-title text-danger">Pregunta N°1</h5>
                                             <p className="card-text">¿Power Point es un prograna diseñado para hacer presentaciones?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
@@ -69,7 +69,7 @@ class Powerpoit extends React.Component {
                                             </div>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://gifimage.net/wp-content/uploads/2017/11/gif-power-point-6.gif" class="h-65 w-50" alt="..." />
+                                            <img src="https://wideo.co/wp-content/uploads/2017/11/Gif-Presentation-mode.gif" class="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
@@ -220,5 +220,5 @@ class Powerpoit extends React.Component {
         );
     }
 }
-export default Powerpoint;
+export default PowerPoint;
 
