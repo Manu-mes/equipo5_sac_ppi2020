@@ -163,19 +163,19 @@ class Excel extends React.Component {
                                     <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
                                             <h5 className="card-title text-success">Pregunta N°6</h5>
-                                            <p className="card-text">¿Como se agrega audio a una presentación?</p>
+                                            <p className="card-text">¿Qué tecla se debe mantener pulsada para seleccionar un rango de celdas dispersas?</p>
                                             <div className="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> Menú INSERTAR-PELÍCULAS Y SONIDOS
+                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> AltGr
                                             </div>
                                             <div class="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" aria-label="..." /> Menú REVISAR
+                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" aria-label="..." /> Ctrl
                                             </div>
                                             <div className="form-check">
-                                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" aria-label="..." />  Menú ARCHIVO
+                                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" aria-label="..." />  Tabular
                                             </div>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1530516099/content-items/002/408/710/LOCUCION_FONDO_720-original.gif?1530516099" className="h-65 w-50" alt="..." />
+                                            <img src="https://pa1.narvii.com/6493/f405acca9eb4935d059868250758ee3abe62d3f9_hq.gif" className="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
