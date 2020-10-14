@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Flecha from '../imagenes/Flecha.png';
-import Excel from '../imagenes/Excel.png'
+import excel from '../imagenes/excel.png';
 import Navegacion from '../componentes/Navegacion';
 
 
@@ -19,9 +19,9 @@ class Excel extends React.Component {
                     <br></br>
                     <div className="container">
                         <div className="row justify-content-md-center">
-                            <div className="col col-lg-2"><img src={Powerpoint} className="..." alt="..." /></div>
+                            <div className="col col-lg-2"><img src={excel} className="..." alt="..." /></div>
                             <div className="col-md-auto"><p className="text-center card-title"><br></br>¡Hola!<br></br>
-                            Mi nombre es Excel, o tambien me llaman <br></br> Hoja de Calculo, aqui evaluaremos<br></br> tus conocimientos de está <br></br>herramienta ofimatica <br></br>¡ Diviertete!</p></div>
+                            Mi nombre es Excel, o tambien me llaman <br></br> Hojas de Calculo, aqui evaluaremos<br></br> tus conocimientos de está <br></br>herramienta ofimatica <br></br>¡ Diviertete!</p></div>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ class Excel extends React.Component {
                                 <div className=" card-deck row justify-content-md-center  ">
                                     <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
-                                            <h5 className="card-title text-danger">Pregunta N°1</h5>
+                                            <h5 className="card-title text-success">Pregunta N°1</h5>
                                             <p className="card-text">¿Power Point es un prograna diseñado para hacer presentaciones?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
@@ -221,3 +221,4 @@ class Excel extends React.Component {
     }
 }
 export default Excel;
+
