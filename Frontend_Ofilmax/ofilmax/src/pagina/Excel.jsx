@@ -15,13 +15,13 @@ class Excel extends React.Component {
                     <br></br>
                     <Link to="/Panel_ev" class="btn"><img src={Flecha} class="" alt="..." /></Link>
                     <br></br>
-                    <h4 className="text-center ">¡Bienvenido a la evaluación de Power Point!</h4>
+                    <h4 className="text-center ">¡Bienvenido a la evaluación de Excel!</h4>
                     <br></br>
                     <div className="container">
                         <div className="row justify-content-md-center">
                             <div className="col col-lg-2"><img src={Powerpoint} className="..." alt="..." /></div>
                             <div className="col-md-auto"><p className="text-center card-title"><br></br>¡Hola!<br></br>
-                            Mi nombre es Power Point, o tambien me llaman <br></br> Diapositivas, aqui evaluaremos<br></br> tus conocimientos de está <br></br>herramienta ofimatica <br></br>¡ Diviertete!</p></div>
+                            Mi nombre es Excel, o tambien me llaman <br></br> Hoja de Calculo, aqui evaluaremos<br></br> tus conocimientos de está <br></br>herramienta ofimatica <br></br>¡ Diviertete!</p></div>
                         </div>
                     </div>
                 </div>
