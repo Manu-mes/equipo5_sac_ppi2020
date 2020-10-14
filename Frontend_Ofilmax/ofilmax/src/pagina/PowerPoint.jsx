@@ -163,7 +163,7 @@ class PowerPoint extends React.Component {
                                     <div className="card w-50 text-center card border-danger mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-danger">Pregunta N°6</h5>
-                                            <p className="card-text">¿Cual es el Atajo de teclado para guardar un documento de Word?</p>
+                                            <p className="card-text">¿Como se agrega audio a una presentación?</p>
                                             <div className="form-check">
                                                 <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> CTRL + S
                                             </div>
