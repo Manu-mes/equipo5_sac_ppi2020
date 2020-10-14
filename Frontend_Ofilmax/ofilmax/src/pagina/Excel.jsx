@@ -56,7 +56,7 @@ class Excel extends React.Component {
                                 <div className=" card-deck row justify-content-md-center ">
                                     <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
-                                            <h5 className="card-title text-danger">Pregunta N°2</h5>
+                                            <h5 className="card-title text-success">Pregunta N°2</h5>
                                             <p className="card-text">¿Como añado una nueva diapositiva?</p>
                                             <div className="form-check">
                                                 <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> Menú ARCHIVO
@@ -86,7 +86,7 @@ class Excel extends React.Component {
                                 <div className=" card-deck row justify-content-md-center ">
                                     <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
-                                            <h5 className="card-title text-danger">Pregunta N°3</h5>
+                                            <h5 className="card-title text-success">Pregunta N°3</h5>
                                             <p className="card-text">¿Para agragar una transión debo de dar clic en la ficha diseño?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
