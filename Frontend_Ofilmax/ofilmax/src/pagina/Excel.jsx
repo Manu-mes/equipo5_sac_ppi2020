@@ -140,12 +140,12 @@ class Excel extends React.Component {
                                     <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
                                             <h5 className="card-title text-success">Pregunta N°5</h5>
-                                            <p className="card-text">¿En Power Point, podemos personalizar nuestra presentación?</p>
+                                            <p className="card-text">¿CTRL+U es el étodo abreviado para añadir un nuevo documento?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://atrevete.academy/blog/wp-content/uploads/2020/03/giphy-3.gif" className="h-65 w-50" alt="..." />
+                                            <img src="https://expertosis.com/wp-content/uploads/2020/03/hojas-de-calculo-portada.gif" className="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
