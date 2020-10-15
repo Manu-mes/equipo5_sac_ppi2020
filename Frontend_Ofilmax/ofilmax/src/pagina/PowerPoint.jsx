@@ -140,7 +140,7 @@ class PowerPoint extends React.Component {
                                     <div className="card w-50 text-center card border-danger mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-danger">Pregunta N°5</h5>
-                                            <p className="card-text">¿En Power Point, podemos personalizar nuestra presentación?</p>
+                                            <p className="card-text">¿En PowerPoint, podemos personalizar nuestra presentación?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
