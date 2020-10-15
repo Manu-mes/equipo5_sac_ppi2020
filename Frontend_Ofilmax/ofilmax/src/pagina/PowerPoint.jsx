@@ -87,7 +87,7 @@ class PowerPoint extends React.Component {
                                     <div className="card w-50 text-center card border-danger mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-danger">Pregunta N°3</h5>
-                                            <p className="card-text">¿Para agragar una transión debo de dar clic en la ficha diseño?</p>
+                                            <p className="card-text">¿Para agragar una transión debo de dar click en la ficha diseño?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
