@@ -36,7 +36,7 @@ class Resultados extends React.Component {
                             <a href="" class="btn btn-outline-danger">Ver mas...</a>
                         </div>
                         <div className="card-footer text-muted">
-                            hace 2 días</div>
+                            hace 3 días</div>
                     </div>
                 </div>
             </div>
