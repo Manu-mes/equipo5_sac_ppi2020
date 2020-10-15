@@ -33,7 +33,7 @@ class Resultados extends React.Component {
                         <div className="card-body">
                             <h5 className="card-title">Herramienta Ofimatica: PowerPoint</h5>
                             <p className="card-text">Evaluación de PowerPoint. 10/10/2020  4:30 pm<br></br>Puntaje: 7/7  ALTO</p>
-                            <a href="/" class="btn btn-outline-danger">Ver mas...</a>
+                            <a href="/Word" class="btn btn-outline-danger">Ver mas...</a>
                         </div>
                         <div className="card-footer text-muted">
                             hace 3 días</div>
