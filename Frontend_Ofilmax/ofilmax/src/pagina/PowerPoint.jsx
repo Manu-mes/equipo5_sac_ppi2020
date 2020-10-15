@@ -199,7 +199,7 @@ class PowerPoint extends React.Component {
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
-                                            <img src="https://lh3.googleusercontent.com/proxy/34rN5J2R8mXm3zplAHkIgrpNSqRptobFf7sos3a9bNGr8erWZ4aCqHMmevq0K7dtt06OZIsYWPT2GTevb9JltcWL4iYDMfk0Y4ayU5z0ZqeRAO1u0gemS1tCbnUQMYKdxek" className="h-65 w-50" alt="..." />
+                                            <img src="https://excelfull.com/wp-content/uploads/2018/05/aprender-powerpoint.gif" className="h-65 w-50" alt="..." />
                                         </div>
                                         <br></br>
                                     </div>
