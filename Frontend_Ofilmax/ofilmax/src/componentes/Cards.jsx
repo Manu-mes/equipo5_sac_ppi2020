@@ -35,7 +35,7 @@ class Cards extends React.Component {
               <img src="https://anthoncode.com/wp-content/uploads/2020/02/logo-power-point.png" class="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">PowerPoint</h5>
-                <p className="card-text">Es un programa diseñado para hacer presentaciones con texto esquematizado, así como presentaciones en diapositivas, animaciones de texto e imágenes prediseñadas o importadas desde imágenes de la computadora. Se le pueden aplicar distintos diseños de fuente, plantilla y dibujos.</p>
+                <p className="card-text">Es un rograma diseñado para hacer presentaciones con texto esquematizado, así como presentaciones en diapositivas, animaciones de texto e imágenes prediseñadas o importadas desde imágenes de la computadora. Se le pueden aplicar distintos diseños de fuente, plantilla y dibujos.</p>
               </div>
               <div className="card-footer">
                 <small className="text-muted"></small>
