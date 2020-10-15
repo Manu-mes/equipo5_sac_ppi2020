@@ -14,7 +14,7 @@ class EditaryCrear extends React.Component {
                             <div class="d-flex w-100 justify-content-between">
                                 <h5 class="mb-1">Editar y Crear Evaluaciones</h5>
                             </div>
-                            <p class="mb-1">Aquí podras agregar preguntas a las respectivas Evaluaciones (Word, PowerPoint y Excel) para que puedas personalizarlas a tu gusto y poder evaluar temas más concretos
+                            <p class="mb-1">Aquí podras agregar preguntas a las respectivas Evaluaciones (Word, PowerPoint y Excel) para que puedas personalizarlas a tu gusto y poder evaluar temas más concretos a tus estudiantes.
                             </p>
                         </a>
                         <br></br>
