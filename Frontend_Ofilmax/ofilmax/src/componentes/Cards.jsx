@@ -25,7 +25,7 @@ class Cards extends React.Component {
               <img src="https://anthoncode.com/wp-content/uploads/2020/02/logo-excel-office.png?v=1581371224" class="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title">Excel</h5>
-                <p className="card-text">Excel  un programa informático desarrollado y distribuido por Microsoft Corp. Se trata de un software que permite realizar tareas contables y financieras gracias a sus funciones, desarrolladas específicamente para ayudar a crear y trabajar con hojas de cálculo.</p>
+                <p className="card-text">Excel es un programa informático desarrollado y distribuido por Microsoft Corp. Se trata de un software que permite realizar tareas contables y financieras gracias a sus funciones, desarrolladas específicamente para ayudar a crear y trabajar con hojas de cálculo.</p>
               </div>
               <div className="card-footer">
                 <small className="text-muted"></small>
