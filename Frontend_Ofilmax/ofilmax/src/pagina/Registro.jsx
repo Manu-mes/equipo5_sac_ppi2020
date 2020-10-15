@@ -47,7 +47,7 @@ class Registro extends React.Component {
                 />
               </div>
               <Link to="/Rol" button className=" btn btn-orange btn btn-info btn-block" type="submit">
-                <strong>Registrar</strong>
+                <strong>Registrarme</strong>
               </Link>
             </form>
             <br />
