@@ -72,7 +72,7 @@ class EditaryCrear extends React.Component {
                                             <label for="validationTextarea">Agrega una Nueva Pregunta</label>
                                             <textarea class="form-control is-invalid" id="validationTextarea" placeholder="..." required></textarea>
                                             <div class="invalid-feedback">
-                                                100 caracteres disponibles</div>
+                                                1000 caracteres disponibles</div>
                                         </div>
                                         <label for="validationTextarea">Agrega y Selecciona la Respuesta correcta</label>
                                         <div class="custom-control custom-checkbox mb-3">
