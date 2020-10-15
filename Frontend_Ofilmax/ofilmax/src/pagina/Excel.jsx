@@ -196,7 +196,7 @@ class excel extends React.Component {
                                             <h5 className="card-title text-success">Pregunta N°7</h5>
                                             <p className="card-text">¿El icono de la brochita nos sirve para copiar de una celda a otra?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
-                                            <a href="#" className="btn btn-outline-danger">Fals</a>
+                                            <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
                                         <div className="col-md-auto card-img-ride ">
                                             <img src="https://i.gifer.com/WonI.gif" className="h-65 w-50" alt="..." />
