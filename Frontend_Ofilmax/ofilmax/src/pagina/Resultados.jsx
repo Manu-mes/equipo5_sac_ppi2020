@@ -50,7 +50,7 @@ class Resultados extends React.Component {
                         <div className="card-body">
                             <h5 className="card-title">Herramienta Ofimatica: Excel</h5>
                             <p className="card-text">Evaluación de Excel. 9/10/2020  12:30 pm<br></br>Puntaje: 4/7  MEDIO</p>
-                            <a href="/" class="btn btn-outline-success">Ver mas...</a>
+                            <a href="/Excel" class="btn btn-outline-success">Ver mas...</a>
                         </div>
                         <div className="card-footer text-muted">
                             hace 4 días</div>
