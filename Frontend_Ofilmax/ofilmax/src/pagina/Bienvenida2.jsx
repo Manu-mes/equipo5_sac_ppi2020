@@ -19,7 +19,7 @@ class Bienvenida2 extends React.Component {
                     <div className="card-body">
                         <h5 className="card-title">¡Bienvenidos a Ofilmax!</h5>
                         <p className="card-text">Aquí podras evidenciar los conocimientos sobre las herramientas Ofimaticas Word, PowerPoint y Excel de tus estudiantes.</p>
-                        <p className="card-text">En la parte superior encontraras la barra de navegación, con los servicios disponibles <br></br> según el Rol que elegiste en tu registro.</p>
+                        <p className="card-text">En la parte superior encontraras la barra de navegación, con los servicios disponible <br></br> según el Rol que elegiste en tu registro.</p>
                         <Link to="/PaginaInicial2" button className=" btn btn-orange btn btn-info btn-block" type="submit">
                             <strong>Siguiente</strong>
                         </Link>
