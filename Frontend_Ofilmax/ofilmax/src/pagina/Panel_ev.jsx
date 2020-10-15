@@ -14,7 +14,7 @@ class Panel_ev extends React.Component {
                 <Navegacion />
                 <br></br>
                 <br></br>
-                    <h4 className="text-center">¡Elige una Evaluación!</h4>
+                    <h4 className="text-center">¡Elige Evaluación!</h4>
                     <br></br>
                     <br></br>
                     <div className="container">
