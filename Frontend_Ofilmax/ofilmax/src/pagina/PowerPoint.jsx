@@ -57,7 +57,7 @@ class PowerPoint extends React.Component {
                                     <div className="card w-50 text-center card border-danger mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-danger">Pregunta N°2</h5>
-                                            <p className="card-text">¿Como añado una nueva diapositiva?</p>
+                                            <p className="card-text">¿Cómo añado una nueva diapositiva?</p>
                                             <div className="form-check">
                                                 <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> Menú ARCHIVO
                                             </div>
