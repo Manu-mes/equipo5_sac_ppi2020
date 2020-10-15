@@ -211,7 +211,7 @@ class excel extends React.Component {
                 <br></br>
                 <div className="container col-md-5">
                     <Link to="/confirmacion" button className=" btn btn-orange btn btn-info btn-block" type="submit">
-                        <strong>terminr</strong>
+                        <strong>Finalizar</strong>
                     </Link>
                 </div>
                 <br></br>
