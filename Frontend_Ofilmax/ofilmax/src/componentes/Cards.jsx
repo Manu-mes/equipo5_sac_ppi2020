@@ -14,7 +14,7 @@ class Cards extends React.Component {
             <div class="card">
               <img src="https://anthoncode.com/wp-content/uploads/2020/02/logo-word-office.png?v=1581371183" class="card-img-top" alt="..." />
               <div className="card-body">
-                <h5 className="card-title">Word</h5>
+                <h5 className="card-title">ord</h5>
                 <p className="card-text">Microsoft Word es un procesador de textos que forma parte de un paquete llamado Office. Es en la actualidad, la solución ofimática más utilizada a nivel administrativo junto con otra herramienta del paquete Office: la hoja de cálculo Microsoft Excel.</p>
               </div>
               <div className="card-footer">
