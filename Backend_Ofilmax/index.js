@@ -1,10 +1,22 @@
-const express = require('express')
+const express = require("express")
+const morgan = require("morgan")
 const app = express()
 
-app.get ('/Ofilmax', function(req, res){
-    res.send('Ofilmax');
+//middlewares
+app.use(morgan("dev"))
+app.use(express.json())
+
+//ROUTES
+app.use("/api/", require ('./routes/registro'))
+app.use("/api/",require('./routes/inicio'))
+
+app.get("/", (req,res) => {
+  res.send("API CRUD")
 })
 
-app.listen(8080, function(){
-    console.log("Bienvenidos a Ofilmax")
+
+app.set("puerto", 9001)
+
+app.listen(app.get("puerto"), () => {
+  console.log(`Servidor escucnado en el puerto ${app.get("puerto")}`)
 })
