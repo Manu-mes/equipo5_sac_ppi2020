@@ -63,7 +63,17 @@ router.put("/registro/:id", (req, res) => {
 })
 
 router.delete("/registro/:id", (req, res) => {
-  res.send("Elimina un registro")
+  let id = req.params.id
+  loadFile(req)
+  let indiceregistro = JSONregistro.findIndex(registro => registro.id == id)
+  
+  if(indiceregistro != -1){
+    JSONregistro.splice(indiceregistro, 1)
+    fs.writeFileSync('./registro.json', JSON.stringify(JSONregistro), 'utf-8')
+    res.status(200).json(indiceregistro + 1)
+  }else{
+    res.status(200).json('registro no existe')
+  }
 })
 
 module.exports = router
