@@ -61,7 +61,17 @@ router.put("/inicio/:id", (req, res) => {
 })
 
 router.delete("/inicio/:id", (req, res) => {
-  res.send("Elimina un inicio")
+  let id = req.params.id
+  loadFile(req)
+  let indiceinicio = JSONinicio.findIndex(inicio => inicio.id == id)
+  
+  if(indiceinicio != -1){
+    JSONinicio.splice(indiceinicio, 1)
+    fs.writeFileSync('./inicio.json', JSON.stringify(JSONinicio), 'utf-8')
+    res.status(200).json(indiceinicio + 1)
+  }else{
+    res.status(200).json('inicio no existe')
+  }
 })
 
 module.exports = router
