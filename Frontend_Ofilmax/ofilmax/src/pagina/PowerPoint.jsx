@@ -57,7 +57,7 @@ class PowerPoint extends React.Component {
                                     <div className="card w-50 text-center card border-danger mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-danger">Pregunta N°2</h5>
-                                            <p className="card-text">¿Como añado una nueva diapositiva?</p>
+                                            <p className="card-text">¿Cómo añado una nueva diapositiva?</p>
                                             <div className="form-check">
                                                 <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> Menú ARCHIVO
                                             </div>
@@ -87,7 +87,7 @@ class PowerPoint extends React.Component {
                                     <div className="card w-50 text-center card border-danger mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-danger">Pregunta N°3</h5>
-                                            <p className="card-text">¿Para agragar una transión debo de dar clic en la ficha diseño?</p>
+                                            <p className="card-text">¿Para agragar una transión debo de dar click en la ficha diseño?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
@@ -140,7 +140,7 @@ class PowerPoint extends React.Component {
                                     <div className="card w-50 text-center card border-danger mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-danger">Pregunta N°5</h5>
-                                            <p className="card-text">¿En Power Point, podemos personalizar nuestra presentación?</p>
+                                            <p className="card-text">¿En PowerPoint, podemos personalizar nuestra presentación?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
@@ -163,7 +163,7 @@ class PowerPoint extends React.Component {
                                     <div className="card w-50 text-center card border-danger mb-3">
                                         <div className="card-body ">
                                             <h5 className="card-title text-danger">Pregunta N°6</h5>
-                                            <p className="card-text">¿Como se agrega audio a una presentación?</p>
+                                            <p className="card-text">¿Cómo se agrega audio a una presentación?</p>
                                             <div className="form-check">
                                                 <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> Menú INSERTAR-PELÍCULAS Y SONIDOS
                                             </div>

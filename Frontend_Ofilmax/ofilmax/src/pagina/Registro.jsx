@@ -25,7 +25,7 @@ class Registro extends React.Component {
                 />
               </div>
               <div className="form-group">
-                <label>Crea una Contraseña</label>
+                <label>Crea tu Contraseña</label>
                 <input
                   type="password"
                   name="contrasena"

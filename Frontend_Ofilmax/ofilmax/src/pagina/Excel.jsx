@@ -140,7 +140,7 @@ class excel extends React.Component {
                                     <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
                                             <h5 className="card-title text-success">Pregunta N°5</h5>
-                                            <p className="card-text">¿CTRL+U es el étodo abreviado para añadir un nuevo documento?</p>
+                                            <p className="card-text">¿CTRL+U es el método abreviado para añadir un nuevo documento?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>
@@ -194,7 +194,7 @@ class excel extends React.Component {
                                     <div className="card w-50 text-center card border-success">
                                         <div className="card-body ">
                                             <h5 className="card-title text-success">Pregunta N°7</h5>
-                                            <p className="card-text">¿El icono de la brochita nos sirve para copiar de una celda a ota?</p>
+                                            <p className="card-text">¿El icono de la brochita nos sirve para copiar de una celda a otra?</p>
                                             <a href="#" className="btn btn-outline-success">Verdadero</a>
                                             <a href="#" className="btn btn-outline-danger">Falso</a>
                                         </div>

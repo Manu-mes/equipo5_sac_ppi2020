@@ -10,7 +10,7 @@ class Inicio extends React.Component {
               <div className="col"></div>
               <div className="col-6 container vh-100  mt-4 text-center">
               <img src={Logo} className="rounded" alt="" width= "170" height="160"/>
-                <h5 className="text-center mt-4">Iniciar Sesión</h5>
+                <h5 className="text-center mt-4">Inicia Sesión</h5>
                 <br />
                 <form >
                   <div className="form-group">
