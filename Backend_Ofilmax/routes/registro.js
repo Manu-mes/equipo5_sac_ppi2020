@@ -21,7 +21,7 @@ router.get("/registro/:id", (req, res) => {
   if(registroEncontrado != undefined)
     res.json(registroEncontrado)
   else
-    res.send(`El estudiante con ID ${id} no existe`)
+    res.send(`El registro con ID ${id} no existe`)
 })
 
 router.post("/registro", (req, res) => {
