@@ -7,7 +7,7 @@ class Navegacion extends React.Component {
   render() {
     return (
       <div>
-        <div className="Navbar ">
+       <div className="Navbar ">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className='container'>
               <a className="navbar-brand" href="#">

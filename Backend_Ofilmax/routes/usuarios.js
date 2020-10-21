@@ -2,7 +2,7 @@ const { Router } = require("express")
 const router = Router()
 const {connection} = require('../db/mysql')
     
-router.get("/estudiantes", (req, res) => {
+router.get("/usuarios", (req, res) => {
     connection.query('SELECT * FROM actores',  (error, rows, fields) => {
         if(!error){
             res.json(rows)
