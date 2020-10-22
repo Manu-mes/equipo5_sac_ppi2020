@@ -1,7 +1,8 @@
 import React from 'react';
 import Navegacion2 from '../componentes/Navegacion2'
 import Header from '../componentes/Header'
-import Cards from '../componentes/Cards'
+import Cards from '../componentes/Cards';
+import Footer from '../componentes/Footer';
 
 class PaginaInicial2 extends React.Component {
   render() {
@@ -17,7 +18,7 @@ class PaginaInicial2 extends React.Component {
         <div className = "container">
           <Cards />
         </div>
-        
+        <Footer />
       </div>
     );
   }

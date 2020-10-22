@@ -1,17 +1,17 @@
 import React from 'react';
 import Navegacion2 from '../componentes/Navegacion2';
+import Footer from '../componentes/Footer';
 
 class Resultados_p extends React.Component {
     render() {
         return (
             <div>
                 <Navegacion2 />
-                <br></br>
-                <br></br>
-                <div className="container">
-                    <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action ">
-                            <div class="d-flex w-100 justify-content-between">
+                <br/>
+                <br/>
+                <div className="container ">
+                    <div className="p-3 mb-2 bg-white text-dark">
+                            <div class="d-flex w-100 justify-content-between ">
                                 <h5 class="mb-1">Evaluaciones Realizadas</h5>
                             </div>
                             <p class="mb-1">Aqui encontraras los puntajes obtenidos de tus estudiantes en cada una de las evaluaciones realizadas (Word, PowerPoint y Excel).
@@ -20,17 +20,12 @@ class Resultados_p extends React.Component {
                                 <li>De 1 a 2 preguntas correctas = BAJO</li>
                                 <li>De 3 a 4 preguntas correctas = MEDIO</li>
                                 <li>De 5 a 7 preguntas correctas = ALTO</li></ul></p>
-                        </a>
+                                </div>
                         <br></br>
                                 <br></br>
-                        <a href="#" class="list-group-item list-group-item-action card border-primary">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1 text-primary">Word</h5>
-                                <br></br>
-                                <br></br>
-                                <div className="container">
-                                <br></br>
-                                <br></br>
+                        <div class="p-3 mb-2 bg-white text-dark card border-primary">
+                                <h5 class="text-center text-primary">Word</h5>
+                                <br/>
                                 <table class="table table-white">
                         <thead>
                             <tr>
@@ -61,19 +56,15 @@ class Resultados_p extends React.Component {
                             </tr>
                         </tbody>
                     </table>
-                                </div>
-                            </div>
-                        </a>
+                        </div>
                         <br></br>
                             <br></br>
-                        <a href="#" class="list-group-item list-group-item-action card border-danger">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1 text-danger">PowerPoint</h5>
-                                <br></br>
-                                <br></br>
-                                <div className="container">
-                                <br></br>
-                                <br></br>
+                        <div class="p-3 mb-2 bg-white text-dark card border-danger">
+                            
+                                <h5 class="mb-1 text-danger text-center">PowerPoint</h5>
+                                <br/>
+                                
+                                
                                 <table class="table table-white">
                         <thead>
                             <tr>
@@ -104,20 +95,13 @@ class Resultados_p extends React.Component {
                             </tr>
                         </tbody>
                     </table>
-                                </div>
-                            </div>
                             
-                        </a>
+                        </div>
                         <br></br>
                             <br></br>
-                        <a href="#" class="list-group-item list-group-item-action card border-success">
-                            <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1 text-success">Excel</h5>
-                                <br></br>
-                                <br></br>
-                                <div className="container">
-                                <br></br>
-                                <br></br>
+                        <div class="p-3 mb-2 bg-white text-dark card border-success">
+                                <h5 class="mb-1 text-success text-center">Excel</h5>
+                                <br/>
                                 <table class="table table-white">
                         <thead>
                             <tr>
@@ -150,13 +134,8 @@ class Resultados_p extends React.Component {
                     </table>
                                 </div>
                             </div>
-                        </a>
-                        <br></br>
-                            <br></br>
-                    </div>
-                </div>
-
-            </div>
+                            <hr/>
+                            <Footer/>                        </div>
         );
     }
 }

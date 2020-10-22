@@ -20,7 +20,7 @@ class Panel_ev extends React.Component {
                     <div className="container">
                         <div className="card-deck row justify-content-md-center">
                             <div className="col-md-auto">
-                                <div className="card-body">
+                                <div className="card-body ">
                                     <h4 className="text-center">Word</h4>
                                 <Link to ="/Word" button  type="button" className="btn btn-outline-info" ><img src={Word} className="card-img-top" alt="..." /></Link>
                                 </div>
