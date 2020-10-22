@@ -1,5 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import Navbar from 'react-bootstrap/Navbar';
+import Button from 'react-bootstrap/Button';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
+import Nav from 'react-bootstrap/Nav';
+import Form from 'react-bootstrap/Form';
 import Logo from '../imagenes/Logo.png';
 // import '../src/index.css'
 
@@ -7,47 +13,31 @@ class Navegacion2 extends React.Component {
   render() {
     return (
       <div>
-        <div className="Navbar">
-          <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className='container'>
-              <a className="navbar-brand" href="#">
-                <img
-                  alt=""
-                  src={Logo}
-                  width="40"
-                  height="40"
-                  className="d-inline-block align-top"
-                /> &nbsp;
-            Ofilmax</a>
-              <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span className="navbar-toggler-icon"></span>
-              </button>
-              <div className="collapse navbar-collapse" id="navbarText">
-                <ul className="navbar-nav mr-auto">
-                  <li className="nav-item">
-                    <a className="nav-link" href="/PaginaInicial2">Inicio</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="/EditaryCrear">Editar y Crear</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="/Resultados_p">Resultados</a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="/Bienvenida2">Bienvenida</a>
-                  </li>
-                </ul>
-                <a className="nav-link btn btn-light" href="/">Nosotros</a>
-                <Link to="/Inicio" className="nav-link btn btn-light" href="#">Salir</Link>
-                <button className=" btn btn-light navbar-button">
-                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-gear-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 0 0-5.86 2.929 2.929 0 0 0 0 5.858z" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </nav>
-        </div>
+       <div>
+       <Navbar bg="light" expand="lg">
+       <div className="container">
+  <Navbar.Brand href="#home">
+   <img
+        alt=""
+        src={Logo}
+        width="33"
+        height="35"
+        className="d-inline-block align-top"
+      />{' '} Ofilmax</Navbar.Brand>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav className="mr-auto">
+      <Nav.Link href="/">Inicio</Nav.Link>
+      <Nav.Link href="/EditaryCrear">Editar y Crear</Nav.Link>
+      <Nav.Link href="/Resultados_p">Resultados</Nav.Link>
+      <Nav.Link href="/Bienvenida2">Bienvenida</Nav.Link>
+    </Nav>
+    
+      <Button href="/Inicio" variant="light">Cerrar Sesión</Button>
+  </Navbar.Collapse>
+  </div>
+</Navbar>
+      </div>
       </div>
     );
   }
