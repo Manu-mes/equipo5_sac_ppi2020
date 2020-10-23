@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Navegacion from '../componentes/Navegacion';
+import Footer from '../componentes/Footer';
 import Logo from '../imagenes/Logo.png'
 
 
@@ -32,6 +33,7 @@ class confirmacion extends React.Component {
                     </div>
                 </div>
             </div>
+            <Footer/>
             </div>
         );
     }

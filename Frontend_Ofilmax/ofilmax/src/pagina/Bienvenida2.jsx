@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../imagenes/Logo.png';
 import Navegacion2 from '../componentes/Navegacion2';
+import Footer from '../componentes/Footer';
 
 
 class Bienvenida2 extends React.Component {
@@ -26,6 +27,9 @@ class Bienvenida2 extends React.Component {
                     </div>
                 </div>
             </div>
+            <br/>
+            <br/>
+            <Footer/>
             </div>
 
         );

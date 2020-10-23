@@ -60,11 +60,8 @@ class Resultados_p extends React.Component {
                         <br></br>
                             <br></br>
                         <div class="p-3 mb-2 bg-white text-dark card border-danger">
-                            
                                 <h5 class="mb-1 text-danger text-center">PowerPoint</h5>
                                 <br/>
-                                
-                                
                                 <table class="table table-white">
                         <thead>
                             <tr>
@@ -134,7 +131,7 @@ class Resultados_p extends React.Component {
                     </table>
                                 </div>
                             </div>
-                            <hr/>
+                            <br/>
                             <Footer/>                        </div>
         );
     }

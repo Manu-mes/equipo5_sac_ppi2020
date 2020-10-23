@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Flecha from '../imagenes/Flecha.png';
 import Word from '../imagenes/Word.png'
 import Navegacion from '../componentes/Navegacion';
+import Footer from '../componentes/Footer';
 
 
 
@@ -216,6 +217,7 @@ class Word_ev extends React.Component {
                 </div>
                 <br></br>
                 <br></br>
+                <Footer/>
             </div>
         );
     }

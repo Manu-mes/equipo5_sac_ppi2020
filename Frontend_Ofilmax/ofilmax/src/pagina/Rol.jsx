@@ -24,7 +24,8 @@ class Rol extends React.Component {
                                 <div className="row justify-content-md-center">
                                     <div className="col col-lg-5"> <Link to="/Bienvenida" button className=" btn btn-orange btn btn-info btn-block" type="submit">
                                         <strong>Estudiante</strong>
-                                    </Link></div>
+                                    </Link></div><br/>
+                                    <br/>
                                     <div className="col-md-5"> <Link to="/Bienvenida2" button className=" btn btn-orange btn btn-info btn-block" type="submit">
                                         <strong>Docente</strong>
                                     </Link></div>
