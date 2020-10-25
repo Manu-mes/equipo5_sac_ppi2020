@@ -11,35 +11,42 @@ class Panel_ev extends React.Component {
     render() {
         return (
             <div>
-                <Navegacion />
+            <Navegacion />
                 <br></br>
                 <br></br>
-                    <h4 className="text-center">¡Elige una Evaluación!</h4>
-                    <br></br>
-                    <br></br>
-                    <div className="container">
-                        <div className="card-deck row justify-content-md-center">
-                            <div className="col-md-auto">
-                                <div className="card-body ">
-                                    <h4 className="text-center">Word</h4>
-                                <Link to ="/Word" button  type="button" className="btn btn-outline-info" ><img src={Word} className="card-img-top" alt="..." /></Link>
-                                </div>
-                            </div>
-                            <div className="col-md-auto">
-                                <div className="card-body">
-                                    <h4 className="text-center">Excel</h4>
-                                <Link to ="/Excel" button type="button" class="btn btn-outline-success" ><img src={Excel} class="card-img-top" alt="..." /></Link>
-                                </div>
-                            </div>
-                            <div className="col-md-auto">
-                                <div className="card-body">
-                                    <h4 className="text-center">PowerPoint</h4>
-                                <Link to ="/PowerPoint" button type="button" class="btn btn-outline-danger" ><img src={Powerpoint} class="card-img-top" alt="..." /></Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div className="container text-center">
+            <div className = "row">
+            <div className = "col-md-12">
+            <h4>¡Elige una Evaluación!</h4>
+            <br/>
+            <br/>
+            </div>
+            </div>
+            <div className = "row">
+            <div className = "col-md-4">
+            <h4>Word</h4>
+            <Link to ="/Word" button  type="button" className="btn btn-outline-info" ><img src={Word} className="card-img-top" alt="..." /></Link>
+            <br/>
+            <br/>
+            <br/>
+            </div>
+            <div className = "col-md-4">
+            <h4>Excel</h4>
+            <Link to ="/Excel" button  type="button" className="btn btn-outline-success" ><img src={Excel} className="card-img-top" alt="..." /></Link>
+            <br/>
+            <br/>
+            <br/>
+            </div>
+            <div className = "col-md-4">
+            <h4>PowerPoint</h4>
+            <Link to ="/PowerPoint" button  type="button" className="btn btn-outline-danger" ><img src={Powerpoint} className="card-img-top" alt="..." /></Link>
+            <br/>
+            <br/>
+            <br/>
+            </div>
+            </div>
+            </div>
+            </div>
         );
     }
 }

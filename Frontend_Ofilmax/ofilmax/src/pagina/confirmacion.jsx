@@ -33,6 +33,8 @@ class confirmacion extends React.Component {
                     </div>
                 </div>
             </div>
+            <br/>
+            <br/>
             <Footer/>
             </div>
         );

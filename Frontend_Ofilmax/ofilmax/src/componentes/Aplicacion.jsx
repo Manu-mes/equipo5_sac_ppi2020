@@ -38,6 +38,7 @@ function Aplicacion() {
                 <Route exact path= '/Resultados_p' component= {Resultados_p} />
                 <Route exact path= '/Rol' component= {Rol} />
                 <Route exact path= '/EditaryCrear' component= {EditaryCrear} />
+               
                 
             </Switch>
         </BrowserRouter>
