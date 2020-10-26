@@ -27,7 +27,7 @@ class PowerPoint extends React.Component {
         Mi nombre es Power Point, o tambien me llaman <br></br> Diapositivas, aqui evaluaremos<br></br> tus conocimientos de está <br></br>herramienta ofimatica <br></br>¡ Diviertete!</p>
         </div>
         </div>
-        <div className="jumbotron jumbotron-fluid alert-light border border-">
+        <div className="jumbotron jumbotron-fluid alert-light border border-danger mb-3">
        <div className="container">
        <h4 className="text-danger">Pregunta N°1</h4>
        <p class="text-body">¿Power Point es un prograna diseñado para hacer presentaciones?</p>
@@ -40,9 +40,9 @@ class PowerPoint extends React.Component {
         </div>
         </div>
 
-        <div className="jumbotron jumbotron-fluid alert-light border border-primary rounded">
+        <div className="jumbotron jumbotron-fluid alert-light border border-danger mb-3">
        <div className="container">
-       <h4 className="text-primary">Pregunta N°2</h4>
+       <h4 className="text-danger">Pregunta N°2</h4>
        <p class="text-body">¿En PowerPoint, podemos personalizar nuestra presentación?</p>
 
        <a href="#" className="btn    btn-outline-success">Verdadero</a> &nbsp;  &nbsp;
@@ -53,10 +53,10 @@ class PowerPoint extends React.Component {
         </div>
         </div>
 
-        <div className="jumbotron jumbotron-fluid alert-light border border-primary rounded">
+        <div className="jumbotron jumbotron-fluid alert-light border border-danger mb-3">
        <div className="container">
        <h4 className="text-primary">Pregunta N°3</h4>
-       <p class="text-body">¿Cómo se agrega audio a una presentación?</p>
+       <p class="text-danger">¿Cómo se agrega audio a una presentación?</p>
 
        <div class="form-check">
   <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"/>
@@ -81,9 +81,9 @@ class PowerPoint extends React.Component {
         </div>
         </div>
 
-        <div className="jumbotron jumbotron-fluid alert-light border border-primary rounded">
+        <div className="jumbotron jumbotron-fluid alert-light border border-danger mb-3">
        <div className="container">
-       <h4 className="text-primary">Pregunta N°4</h4>
+       <h4 className="text-danger">Pregunta N°4</h4>
        <p class="text-body">¿Para agragar una transión debo de dar click en la ficha diseño?</p>
 
        <a href="#" className="btn    btn-outline-success">Verdadero</a> &nbsp;  &nbsp;
@@ -94,9 +94,9 @@ class PowerPoint extends React.Component {
         </div>
         </div>
 
-        <div className="jumbotron jumbotron-fluid alert-light border border-primary rounded">
+        <div className="jumbotron jumbotron-fluid alert-light border border-danger mb-3">
        <div className="container">
-       <h4 className="text-primary">Pregunta N°5</h4>
+       <h4 className="text-danger">Pregunta N°5</h4>
        <p class="text-body">¿Es posible colar la cantidad de diapositivas que necesitamos antes de colocar el contenido en cada una?</p>
 
        <a href="#" className="btn    btn-outline-success">Verdadero</a> &nbsp;  &nbsp;
