@@ -5,222 +5,118 @@ import Powerpoint from '../imagenes/Powerpoint.png'
 import Navegacion from '../componentes/Navegacion';
 import Footer from '../componentes/Footer';
 
-
-
-class PowerPoint extends React.Component {
+class Word_ev extends React.Component {
     render() {
         return (
-            <div>
-                <Navegacion />
-                <div>
-                    <br></br>
-                    <Link to="/Panel_ev" class="btn"><img src={Flecha} class="" alt="..." /></Link>
-                    <br></br>
-                    <h4 className="text-center ">¡Bienvenido a la evaluación de Power Point!</h4>
-                    <br></br>
-                    <div className="container">
-                        <div className="row justify-content-md-center">
-                            <div className="col col-lg-2"><img src={Powerpoint} className="..." alt="..." /></div>
-                            <div className="col-md-auto"><p className="text-center card-title"><br></br>¡Hola!<br></br>
-                            Mi nombre es Power Point, o tambien me llaman <br></br> Diapositivas, aqui evaluaremos<br></br> tus conocimientos de está <br></br>herramienta ofimatica <br></br>¡ Diviertete!</p></div>
+             <div>
+        <Navegacion />
+        <Link to="/Panel_ev" class="btn"><img src={Flecha} class="" alt="..." /></Link>
+        <div className="container text-center">
+        <br/>
+        <h4>¡Bienvenido a la evaluación de Word!</h4>
+
+        <div className="container">
+        <div className="row">
+        <div className="col-md-3 offset-md-3">
+        <img src={Word} className="" alt="..." />
+        </div>
+        <div className="col-md-3">
+        <p className="text-center card-title"><br></br>¡Hola!<br></br>
+        Mi nombre es Word, o tambien me llaman <br></br> Procesador de Texto, aqui evaluaremos<br></br> tus conocimientos de está <br></br>herramienta ofimatica <br></br>¡ Diviertete!</p>
+        </div>
+        </div>
+        <div className="jumbotron jumbotron-fluid alert-light border border-primary rounded">
+       <div className="container">
+       <h4 className="text-primary">Pregunta N°1</h4>
+       <p class="text-body">¿Microsoft Word es un procesador de texto?</p>
+
+       <a href="#" className="btn    btn-outline-success">Verdadero</a> &nbsp;  &nbsp;
+       <a href="#" className="btn    btn-outline-danger">Falso</a>
+       <br/>
+       <br/>
+       <img src="https://steamuserimages-a.akamaihd.net/ugc/364030656455764292/D380E479859895E92F411D8A958043968B116DEA/" class="h-65 w-50" alt="..." />
+        </div>
+        </div>
+
+        <div className="jumbotron jumbotron-fluid alert-light border border-primary rounded">
+       <div className="container">
+       <h4 className="text-primary">Pregunta N°2</h4>
+       <p class="text-body">¿CTRL+P es el método abreviado para imprimir un documento?</p>
+
+       <a href="#" className="btn    btn-outline-success">Verdadero</a> &nbsp;  &nbsp;
+       <a href="#" className="btn    btn-outline-danger">Falso</a>
+       <br/>
+       <br/>
+       <img src="https://support.epson-europe.com/onlineguides/es/sp2100/ref_g/images/21a21.gif" class="h-65 w-50" alt="..." />
+        </div>
+        </div>
+
+        <div className="jumbotron jumbotron-fluid alert-light border border-primary rounded">
+       <div className="container">
+       <h4 className="text-primary">Pregunta N°3</h4>
+       <p class="text-body">¿Cuál es el comando para pegar texto?</p>
+
+       <div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"/>
+  <label class="form-check-label" for="exampleRadios1">
+    CTRL + D
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2"/>
+  <label class="form-check-label" for="exampleRadios2">
+    CTRL + C
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3"/>
+  <label class="form-check-label" for="exampleRadios3">
+    CTRL + V
+  </label>
+</div>
+       <br/>
+       <img src="https://4.bp.blogspot.com/-f8jt6o9W0q0/VhlVmgFd4EI/AAAAAAAAACw/zKCp2d3lUGw/s1600/711529_typing-keyboard-dennou-coil.gif" class="h-65 w-50" alt="..." />
+        </div>
+        </div>
+
+        <div className="jumbotron jumbotron-fluid alert-light border border-primary rounded">
+       <div className="container">
+       <h4 className="text-primary">Pregunta N°4</h4>
+       <p class="text-body">¿En Word, podemos agregar portadas a nuestro trabajos?</p>
+
+       <a href="#" className="btn    btn-outline-success">Verdadero</a> &nbsp;  &nbsp;
+       <a href="#" className="btn    btn-outline-danger">Falso</a>
+       <br/>
+       <br/>
+       <img src="https://media0.giphy.com/media/3o7TKUZfJKUKuSWTZe/200.gif" class="h-65 w-50" alt="..." />
+        </div>
+        </div>
+
+        <div className="jumbotron jumbotron-fluid alert-light border border-primary rounded">
+       <div className="container">
+       <h4 className="text-primary">Pregunta N°5</h4>
+       <p class="text-body">¿En Word nos permite corregir la ortografía y gramática de un documento?</p>
+
+       <a href="#" className="btn    btn-outline-success">Verdadero</a> &nbsp;  &nbsp;
+       <a href="#" className="btn    btn-outline-danger">Falso</a>
+       <br/>
+       <br/>
+       <img src="https://static1.squarespace.com/static/5784182c20099ee99d80fc86/t/5c5b01609b747a56b269da4d/1549468075794/giphy.gif?format=1500w" class="h-65 w-50" alt="..." />
+        </div>
+        </div>
+        <div className="container">
+        <Link to="/confirmacion" button className=" btn btn-orange btn btn-info btn-block" type="submit">
+                            <strong>Finalizar</strong>
+                        </Link>
                         </div>
-                    </div>
-                </div>
-                <br></br>
-                <div className="row justify-content-md-center">
-                    <div className="col col-lg-7">
-                        <div className="container ">
-                            <div className="col-md-auto ">
-                                <div className=" card-deck row justify-content-md-center  ">
-                                    <div className="card w-50 text-center card border-danger mb-3">
-                                        <div className="card-body ">
-                                            <h5 className="card-title text-danger">Pregunta N°1</h5>
-                                            <p className="card-text">¿Power Point es un prograna diseñado para hacer presentaciones?</p>
-                                            <a href="#" className="btn btn-outline-success">Verdadero</a>
-                                            <a href="#" className="btn btn-outline-danger">Falso</a>
-                                        </div>
-                                        <div className="col-md-auto card-img-ride ">
-                                            <img src="https://4.bp.blogspot.com/-6pwF-lQ3OrU/XBWcmQcYGWI/AAAAAAAAA2o/nxi7RbD4ysAQH_aIe_rOqau6xYPYTccDQCLcBGAs/s1600/pp.gif" class="h-65 w-50" alt="..." />
-                                        </div>
-                                        <br></br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br></br>
-                <div className="row justify-content-md-center">
-                    <div className="col col-lg-7">
-                        <div className="container">
-                            <div className="col-md-auto ">
-                                <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-danger mb-3">
-                                        <div className="card-body ">
-                                            <h5 className="card-title text-danger">Pregunta N°2</h5>
-                                            <p className="card-text">¿Cómo añado una nueva diapositiva?</p>
-                                            <div className="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> Menú ARCHIVO
-                                            </div>
-                                            <div class="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" aria-label="..." /> Menú REVISAR
-                                            </div>
-                                            <div className="form-check">
-                                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" aria-label="..." /> Menú INICIO-NUEVA DIAPOSTIVA
-                                            </div>
-                                        </div>
-                                        <div className="col-md-auto card-img-ride ">
-                                            <img src="https://wideo.co/wp-content/uploads/2017/11/Gif-Presentation-mode.gif" class="h-65 w-50" alt="..." />
-                                        </div>
-                                        <br></br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br></br>
-                <div className="row justify-content-md-center">
-                    <div className="col col-lg-7">
-                        <div className="container">
-                            <div className="col-md-auto ">
-                                <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-danger mb-3">
-                                        <div className="card-body ">
-                                            <h5 className="card-title text-danger">Pregunta N°3</h5>
-                                            <p className="card-text">¿Para agragar una transión debo de dar click en la ficha diseño?</p>
-                                            <a href="#" className="btn btn-outline-success">Verdadero</a>
-                                            <a href="#" className="btn btn-outline-danger">Falso</a>
-                                        </div>
-                                        <div className="col-md-auto card-img-ride ">
-                                            <img src="https://media.tenor.com/images/b86e84b7138cdbb20e42e86e161c2fdb/tenor.gif" className="h-65 w-50" alt="..." />
-                                        </div>
-                                        <br></br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br></br>
-                <div className="row justify-content-md-center">
-                    <div className="col col-lg-7">
-                        <div className="container">
-                            <div className="col-md-auto ">
-                                <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-danger mb-3">
-                                        <div className="card-body ">
-                                            <h5 className="card-title text-danger">Pregunta N°4</h5>
-                                            <p className="card-text">¿Cuál es la tecla que activa la presentacion?</p>
-                                            <div className="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> La tecla de presentacion
-                                            </div>
-                                            <div class="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" aria-label="..." /> Vista de lectura
-                                            </div>
-                                            <div className="form-check">
-                                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" aria-label="..." />  Clasificador
-                                            </div>
-                                        </div>
-                                        <div className="col-md-auto card-img-ride ">
-                                            <img src="https://media1.tenor.com/images/9614339ec0eae1bcfdaa976f3b7b0cac/tenor.gif?itemid=14535347" className="h-65 w-50" alt="..." />
-                                        </div>
-                                        <br></br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br></br>
-                <div className="row justify-content-md-center">
-                    <div className="col col-lg-7">
-                        <div className="container">
-                            <div className="col-md-auto ">
-                                <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-danger mb-3">
-                                        <div className="card-body ">
-                                            <h5 className="card-title text-danger">Pregunta N°5</h5>
-                                            <p className="card-text">¿En PowerPoint, podemos personalizar nuestra presentación?</p>
-                                            <a href="#" className="btn btn-outline-success">Verdadero</a>
-                                            <a href="#" className="btn btn-outline-danger">Falso</a>
-                                        </div>
-                                        <div className="col-md-auto card-img-ride ">
-                                            <img src="https://atrevete.academy/blog/wp-content/uploads/2020/03/giphy-3.gif" className="h-65 w-50" alt="..." />
-                                        </div>
-                                        <br></br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br></br>
-                <div className="row justify-content-md-center">
-                    <div className="col col-lg-7">
-                        <div className="container">
-                            <div className="col-md-auto ">
-                                <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-danger mb-3">
-                                        <div className="card-body ">
-                                            <h5 className="card-title text-danger">Pregunta N°6</h5>
-                                            <p className="card-text">¿Cómo se agrega audio a una presentación?</p>
-                                            <div className="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option1" aria-label="..." /> Menú INSERTAR-PELÍCULAS Y SONIDOS
-                                            </div>
-                                            <div class="form-check">
-                                                <input className="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option2" aria-label="..." /> Menú REVISAR
-                                            </div>
-                                            <div className="form-check">
-                                                <input class="form-check-input position-static" type="checkbox" id="blankCheckbox" value="option3" aria-label="..." />  Menú ARCHIVO
-                                            </div>
-                                        </div>
-                                        <div className="col-md-auto card-img-ride ">
-                                            <img src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1530516099/content-items/002/408/710/LOCUCION_FONDO_720-original.gif?1530516099" className="h-65 w-50" alt="..." />
-                                        </div>
-                                        <br></br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br></br>
-                <br></br>
-                <div className="row justify-content-md-center">
-                    <div className="col col-lg-7">
-                        <div className="container">
-                            <div className="col-md-auto ">
-                                <div className=" card-deck row justify-content-md-center ">
-                                    <div className="card w-50 text-center card border-danger mb-3">
-                                        <div className="card-body ">
-                                            <h5 className="card-title text-danger">Pregunta N°7</h5>
-                                            <p className="card-text">¿Es posible colar la cantidad de diapositivas que necesitamos antes de colocar el contenido en cada una?</p>
-                                            <a href="#" className="btn btn-outline-success">Verdadero</a>
-                                            <a href="#" className="btn btn-outline-danger">Falso</a>
-                                        </div>
-                                        <div className="col-md-auto card-img-ride ">
-                                            <img src="https://excelfull.com/wp-content/uploads/2018/05/aprender-powerpoint.gif" className="h-65 w-50" alt="..." />
-                                        </div>
-                                        <br></br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br></br>
-                <div className="container col-md-5">
-                    <Link to="/confirmacion" button className=" btn btn-orange btn btn-info btn-block" type="submit">
-                        <strong>Finalizar</strong>
-                    </Link>
-                </div>
-                <br></br>
-                <br></br>
-                <Footer/>
-            </div>
+        </div>
+        </div>
+        <br/>
+        <br/>
+        <Footer/>
+      </div>
         );
     }
 }
-export default PowerPoint;
 
+export default PowerPoint;
