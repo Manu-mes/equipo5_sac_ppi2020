@@ -5,7 +5,9 @@ import Powerpoint from '../imagenes/Powerpoint.png'
 import Navegacion from '../componentes/Navegacion';
 import Footer from '../componentes/Footer';
 
-class Powerpoint extends React.Component {
+
+
+class PowerPoint extends React.Component {
     render() {
         return (
              <div>
@@ -13,7 +15,7 @@ class Powerpoint extends React.Component {
         <Link to="/Panel_ev" class="btn"><img src={Flecha} class="" alt="..." /></Link>
         <div className="container text-center">
         <br/>
-        <h4>¡Bienvenido a la evaluación de Power Point!</h4>
+        <h4>¡Bienvenido a la evaluación de PowerPoint!</h4>
 
         <div className="container">
         <div className="row">
@@ -25,7 +27,7 @@ class Powerpoint extends React.Component {
         Mi nombre es Power Point, o tambien me llaman <br></br> Diapositivas, aqui evaluaremos<br></br> tus conocimientos de está <br></br>herramienta ofimatica <br></br>¡ Diviertete!</p>
         </div>
         </div>
-        <div className="jumbotron jumbotron-fluid alert-light border border-danger mb-3">
+        <div className="jumbotron jumbotron-fluid alert-light border border-">
        <div className="container">
        <h4 className="text-danger">Pregunta N°1</h4>
        <p class="text-body">¿Power Point es un prograna diseñado para hacer presentaciones?</p>
@@ -41,25 +43,25 @@ class Powerpoint extends React.Component {
         <div className="jumbotron jumbotron-fluid alert-light border border-primary rounded">
        <div className="container">
        <h4 className="text-primary">Pregunta N°2</h4>
-       <p class="text-body">¿Para agragar una transión debo de dar click en la ficha diseño?</p>
+       <p class="text-body">¿En PowerPoint, podemos personalizar nuestra presentación?</p>
 
        <a href="#" className="btn    btn-outline-success">Verdadero</a> &nbsp;  &nbsp;
        <a href="#" className="btn    btn-outline-danger">Falso</a>
        <br/>
        <br/>
-       <img src="https://media.tenor.com/images/b86e84b7138cdbb20e42e86e161c2fdb/tenor.gif" class="h-65 w-50" alt="..." />
+       <img src="https://atrevete.academy/blog/wp-content/uploads/2020/03/giphy-3.gif" class="h-65 w-50" alt="..." />
         </div>
         </div>
 
         <div className="jumbotron jumbotron-fluid alert-light border border-primary rounded">
        <div className="container">
        <h4 className="text-primary">Pregunta N°3</h4>
-       <p class="text-body">¿Cómo añado una nueva diapositiva?</p>
+       <p class="text-body">¿Cómo se agrega audio a una presentación?</p>
 
        <div class="form-check">
   <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"/>
   <label class="form-check-label" for="exampleRadios1">
-    Menú ARCHIVO
+    Menú INSERTAR-PELÍCULAS Y SONIDOS
   </label>
 </div>
 <div class="form-check">
@@ -71,24 +73,24 @@ class Powerpoint extends React.Component {
 <div class="form-check">
   <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3"/>
   <label class="form-check-label" for="exampleRadios3">
-    Menú INICIO-NUEVA DIAPOSTIVA
+    Menú ARCHIVO
   </label>
 </div>
        <br/>
-       <img src="https://wideo.co/wp-content/uploads/2017/11/Gif-Presentation-mode.gif" class="h-65 w-50" alt="..." />
+       <img src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1530516099/content-items/002/408/710/LOCUCION_FONDO_720-original.gif?1530516099" class="h-65 w-50" alt="..." />
         </div>
         </div>
 
         <div className="jumbotron jumbotron-fluid alert-light border border-primary rounded">
        <div className="container">
        <h4 className="text-primary">Pregunta N°4</h4>
-       <p class="text-body">¿En PowerPoint, podemos personalizar nuestra presentación?</p>
+       <p class="text-body">¿Para agragar una transión debo de dar click en la ficha diseño?</p>
 
        <a href="#" className="btn    btn-outline-success">Verdadero</a> &nbsp;  &nbsp;
        <a href="#" className="btn    btn-outline-danger">Falso</a>
        <br/>
        <br/>
-       <img src="https://atrevete.academy/blog/wp-content/uploads/2020/03/giphy-3.gif" class="h-65 w-50" alt="..." />
+       <img src="https://media.tenor.com/images/b86e84b7138cdbb20e42e86e161c2fdb/tenor.gif" alt="..." />
         </div>
         </div>
 
@@ -118,5 +120,4 @@ class Powerpoint extends React.Component {
         );
     }
 }
-
 export default PowerPoint;
