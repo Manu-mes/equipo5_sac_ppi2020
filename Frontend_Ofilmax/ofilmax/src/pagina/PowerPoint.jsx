@@ -55,8 +55,8 @@ class PowerPoint extends React.Component {
 
         <div className="jumbotron jumbotron-fluid alert-light border border-danger mb-3">
        <div className="container">
-       <h4 className="text-primary">Pregunta N°3</h4>
-       <p class="text-danger">¿Cómo se agrega audio a una presentación?</p>
+       <h4 className="text-danger">Pregunta N°3</h4>
+       <p class="text-body">¿Cómo se agrega audio a una presentación?</p>
 
        <div class="form-check">
   <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"/>
