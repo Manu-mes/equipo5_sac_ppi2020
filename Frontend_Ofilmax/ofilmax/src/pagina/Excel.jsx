@@ -103,7 +103,7 @@ class excel extends React.Component {
        <a href="#" className="btn    btn-outline-danger">Falso</a>
        <br/>
        <br/>
-       <img src="https://i.gifer.com/WonI.gif" alt="..." />
+       <img src="https://i.gifer.com/WonI.gif" class="h-65 w-50" alt="..." />
         </div>
         </div>
         <div className="container">
