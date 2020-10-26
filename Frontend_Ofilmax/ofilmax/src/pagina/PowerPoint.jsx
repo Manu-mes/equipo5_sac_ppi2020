@@ -90,7 +90,7 @@ class PowerPoint extends React.Component {
        <a href="#" className="btn    btn-outline-danger">Falso</a>
        <br/>
        <br/>
-       <img src="https://media.tenor.com/images/b86e84b7138cdbb20e42e86e161c2fdb/tenor.gif" alt="..." />
+       <img src="https://media.tenor.com/images/b86e84b7138cdbb20e42e86e161c2fdb/tenor.gif" class="h-65 w-50" alt="..." />
         </div>
         </div>
 
@@ -103,7 +103,7 @@ class PowerPoint extends React.Component {
        <a href="#" className="btn    btn-outline-danger">Falso</a>
        <br/>
        <br/>
-       <img src="https://excelfull.com/wp-content/uploads/2018/05/aprender-powerpoint.gif" class="h-65 w-50" alt="..." />
+       <img src="https://media1.tenor.com/images/782061bd0e1bbc67a93ddab9272ddb16/tenor.gif?itemid=10139342" class="h-65 w-50" alt="..." />
         </div>
         </div>
         <div className="container">
