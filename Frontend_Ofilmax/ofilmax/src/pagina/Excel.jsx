@@ -40,9 +40,9 @@ class excel extends React.Component {
         </div>
         </div>
 
-        <div className="jumbotron jumbotron-fluid alert-light border border-danger mb-3">
+        <div className="jumbotron jumbotron-fluid alert-light border border-success">
        <div className="container">
-       <h4 className="text-danger">Pregunta N°2</h4>
+       <h4 className="text-success">Pregunta N°2</h4>
        <p class="text-body">¿CTRL+U es el método abreviado para añadir un nuevo documento?</p>
 
        <a href="#" className="btn    btn-outline-success">Verdadero</a> &nbsp;  &nbsp;
@@ -53,9 +53,9 @@ class excel extends React.Component {
         </div>
         </div>
 
-        <div className="jumbotron jumbotron-fluid alert-light border border-danger mb-3">
+        <div className="jumbotron jumbotron-fluid alert-light border border-success">
        <div className="container">
-       <h4 className="text-danger">Pregunta N°3</h4>
+       <h4 className="text-success">Pregunta N°3</h4>
        <p class="text-body">Cuando se introduce una fórmula en una celda, lo primero que hay que introducir es:</p>
 
        <div class="form-check">
@@ -81,9 +81,9 @@ class excel extends React.Component {
         </div>
         </div>
 
-        <div className="jumbotron jumbotron-fluid alert-light border border-danger mb-3">
+        <div className="jumbotron jumbotron-fluid alert-light border border-success">
        <div className="container">
-       <h4 className="text-danger">Pregunta N°4</h4>
+       <h4 className="text-success">Pregunta N°4</h4>
        <p class="text-body">¿Las etiquetas se utlizan para ayudarnos a identificar la información?</p>
 
        <a href="#" className="btn    btn-outline-success">Verdadero</a> &nbsp;  &nbsp;
@@ -94,9 +94,9 @@ class excel extends React.Component {
         </div>
         </div>
 
-        <div className="jumbotron jumbotron-fluid alert-light border border-danger mb-3">
+        <div className="jumbotron jumbotron-fluid alert-light border border-success">
        <div className="container">
-       <h4 className="text-danger">Pregunta N°5</h4>
+       <h4 className="text-success">Pregunta N°5</h4>
        <p class="text-body">¿El icono de la brochita nos sirve para copiar de una celda a otra?</p>
 
        <a href="#" className="btn    btn-outline-success">Verdadero</a> &nbsp;  &nbsp;
