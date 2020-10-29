@@ -14,7 +14,7 @@ class Inicio extends React.Component {
                 <br />
                 <form >
                   <div className="form-group">
-                    <label className="inputEmail">Correo Electronico</label>
+                    <label className="inputEmail">Correo Electrónico</label>
                     <input
                       type="email"
                       name="email"
@@ -39,9 +39,9 @@ class Inicio extends React.Component {
                 </form>
                 <br />
                 <h6>¿No tienes una cuenta? <Link to="/Registro" button className=" btn btn-orange" type="submit">
-                    <strong>Registrate</strong>
+                    <strong>Regístrate</strong>
                   </Link></h6>
-                <h6>Olvide mi Contraseña</h6>
+                <h6>Olvidé mi Contraseña</h6>
                 <br />
               </div>
               <div className="col"></div>

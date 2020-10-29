@@ -14,7 +14,7 @@ class Resultados_p extends React.Component {
                             <div class="d-flex w-100 justify-content-between ">
                                 <h5 class="mb-1">Evaluaciones Realizadas</h5>
                             </div>
-                            <p class="mb-1">Aqui encontraras los puntajes obtenidos de tus estudiantes en cada una de las evaluaciones realizadas (Word, PowerPoint y Excel).
+                            <p class="mb-1">Aquí encontraras los puntajes obtenidos de tus estudiantes en cada una de las evaluaciones realizadas (Word, PowerPoint y Excel).
                             Los puntajes estan valorados de la siguiente forma:
                             <ul>
                                 <li>De 1 a 2 preguntas correctas = BAJO</li>

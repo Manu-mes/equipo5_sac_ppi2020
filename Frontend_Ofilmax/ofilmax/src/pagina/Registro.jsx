@@ -11,11 +11,11 @@ class Registro extends React.Component {
           <div className="col"></div>
           <div className="col-6 container vh-100  mt-4 text-center">
             <img src={Logo} className="rounded" alt="" width="170" height="160" />
-            <h5 className="text-center mt-4">Registrate</h5>
+            <h5 className="text-center mt-4">Regístrate</h5>
             <br />
             <form >
               <div className="form-group">
-                <label className="inputEmail">Correo Electronico</label>
+                <label className="inputEmail">Correo Electrónico</label>
                 <input
                   type="email"
                   name="email"
@@ -25,7 +25,7 @@ class Registro extends React.Component {
                 />
               </div>
               <div className="form-group">
-                <label>Crea tu Contraseña</label>
+                <label>Creá tu Contraseña</label>
                 <input
                   type="password"
                   name="contrasena"
@@ -52,7 +52,7 @@ class Registro extends React.Component {
             </form>
             <br />
             <h6>¿Ya tienes una cuenta?  <Link to="/Inicio" button className=" btn btn-orange" type="submit">
-              <strong>Inicia Sesion</strong>
+              <strong>Inicia Sesión</strong>
             </Link></h6>
             <br />
           </div>

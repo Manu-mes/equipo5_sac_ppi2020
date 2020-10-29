@@ -14,7 +14,7 @@ class Rol extends React.Component {
                         <br></br>
                         <br></br>
                         <img src={Logo} className="rounded" alt="" width="170" height="160" />
-                        <h5 className="text-center mt-4">Por ultimo...</h5>
+                        <h5 className="text-center mt-4">Por último...</h5>
                         <br />
                         <form >
                             <div className="form-group">
@@ -34,7 +34,7 @@ class Rol extends React.Component {
                         </form>
                         <br />
                         <h6>¿Ya tienes una cuenta?  <Link to="/Inicio" button className=" btn btn-orange" type="submit">
-                            <strong>Inicia Sesion</strong>
+                            <strong>Inicia Sesión</strong>
                         </Link></h6>
                         <br />
                     </div>
