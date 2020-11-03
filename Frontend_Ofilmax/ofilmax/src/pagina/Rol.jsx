@@ -34,7 +34,7 @@ class Rol extends React.Component {
                         </form>
                         <br />
                         <h6>¿Ya tienes una cuenta?  <Link to="/Inicio" button className=" btn btn-orange" type="submit">
-                            <strong>inicia Sesión</strong>
+                            <strong>Inicia Sesión</strong>
                         </Link></h6>
                         <br />
                     </div>
