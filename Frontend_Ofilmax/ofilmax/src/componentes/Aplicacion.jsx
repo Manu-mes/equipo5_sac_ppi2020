@@ -23,9 +23,9 @@ function Aplicacion() {
     return(
         <BrowserRouter>
             <Switch>
-                <Route exact path= '/' component= {PaginaInicial} />
+                <Route exact path= '/PaginaInicial' component= {PaginaInicial} />
                 <Route exact path= '/Inicio' component= {Inicio} />
-                <Route exact path= '/Registro' component= {Registro} />
+                <Route exact path= '/' component= {Registro} />
                 <Route exact path= '/Bienvenida' component= {Bienvenida} />
                 <Route exact path= '/Panel_ev' component= {Panel_ev} />
                 <Route exact path= '/Word' component= {Word} />

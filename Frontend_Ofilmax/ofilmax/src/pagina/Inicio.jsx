@@ -33,12 +33,12 @@ class Inicio extends React.Component {
                       required
                     />
                   </div>
-                  <Link to="/" button className=" btn btn-orange btn btn-info btn-block" type="submit">
+                  <Link to="/PaginaInicial" button className=" btn btn-orange btn btn-info btn-block" type="submit">
                     <strong>Iniciar Sesión</strong>
                   </Link>
                 </form>
                 <br />
-                <h6>¿No tienes una cuenta? <Link to="/Registro" button className=" btn btn-orange" type="submit">
+                <h6>¿No tienes una cuenta? <Link to="/" button className=" btn btn-orange" type="submit">
                     <strong>Regístrate</strong>
                   </Link></h6>
                 <h6>Olvidé mi Contraseña</h6>

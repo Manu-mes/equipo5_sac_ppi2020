@@ -23,7 +23,7 @@ class confirmacion extends React.Component {
                         <p className="card-text">En la parte superior encontrarás la barra de navegación, da Click en "Resultados" para ver el puntaje obtenido en cada una de las evaluaciones <br></br></p>
                         <br></br>
                         <div className="row justify-content-md-center">
-                            <div className="col col-lg-2"> <Link to="/" button className=" btn btn-orange btn btn-info btn-block" type="submit">
+                            <div className="col col-lg-2"> <Link to="/PaginaInicial" button className=" btn btn-orange btn btn-info btn-block" type="submit">
                             <strong>Continuar</strong>
                         </Link></div>
                             <div className="col-md-auto"> <Link to="/Panel_ev" button className=" btn btn-orange btn btn-info btn-block" type="submit">

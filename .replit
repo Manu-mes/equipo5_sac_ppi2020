@@ -1,5 +1,5 @@
 language = "nodejs"
-run = "cd Frontend_Ofilmax/ofilmax && npm i"
-#run = "cd Frontend_Ofilmax/ofilmax && npm start"
+#run = "cd Frontend_Ofilmax/ofilmax && npm i"
+run = "cd Frontend_Ofilmax/ofilmax && npm start"
 #run = "cd Backend_Ofilmax && npm i"
 #run = "cd Backend_Ofilmax && npm run dev"
