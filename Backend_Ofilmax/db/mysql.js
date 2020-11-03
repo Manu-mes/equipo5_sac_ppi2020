@@ -5,13 +5,6 @@ const connection = mysql.createConnection({
   password : 'bGRWLU2XFBYkYOecsJQo',
   database : 'br9cpdzhfcmkt1tmto3k'
 });
-const mysql      = require('mysql');
-const connection = mysql.createConnection({
-  host     : 'bm8nokafqqhpqzrkurwd-mysql.services.clever-cloud.com',
-  user     : 'uns8d5a55y0ltild',
-  password : 'bGRWLU2XFBYkYOecsJQo',
-  database : 'br9cpdzhfcmkt1tmto3k'
-});
 
 connection.connect((error) => {
     if(error){
