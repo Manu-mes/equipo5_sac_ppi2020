@@ -12,4 +12,4 @@ router.get("/evaluaciones", (req, res) => {
     })
 })
   
-module.exports = router
+module.exports = {connection: connection}
