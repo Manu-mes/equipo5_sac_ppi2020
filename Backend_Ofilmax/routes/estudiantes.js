@@ -8,7 +8,11 @@ router.get('/estudiantes', (req, res) => {
    })
 })
 
-router.get('/estudiantes/:id', (req, res) => {})
+router.get('/estudiantes/:id', (req, res) => {
+  connection.query("SELECT * FROM estudiante", (error, result, fields) => {
+    res.json(result)
+   })
+})
 
 router.post('/estudiantes', (req, res) => {})
 
