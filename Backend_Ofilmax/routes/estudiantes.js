@@ -8,8 +8,8 @@ router.get('/estudiantes', (req, res) => {
    })
 })
 
-router.get('/estudiantes/:id', (req, res) => {
-  connection.query("SELECT * FROM estudiante", (error, result, fields) => {
+router.get('/estudiantes/:Correo', (req, res) => {
+  connection.query("SELECT * FROM estudiante WHERE Correo = ? ",[req.params.Correo], (error, result, fields) => {
     res.json(result)
    })
 })
