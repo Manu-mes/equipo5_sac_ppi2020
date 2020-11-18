@@ -14,7 +14,9 @@ router.get('/estudiantes/:Correo', (req, res) => {
    })
 })
 
-router.post('/estudiantes', (req, res) => {})
+router.post('/estudiantes', (req, res) => {
+  
+})
 
 router.put('/estudiantes/:id', (req, res) => {})
 
