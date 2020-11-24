@@ -1,1 +1,1 @@
-API_BACKEND_OFILMAX="https://equipo5sacppi2020-2.valentinacaiced.repl.co"
+export const API_BACKEND_OFILMAX="https://equipo5sacppi2020-2.valentinacaiced.repl.co/"
