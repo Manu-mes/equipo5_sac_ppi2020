@@ -20,8 +20,10 @@ router.post('/estudiantes/Inicio', (req, res)=>{
         Contrasena,
         Correo
       } = req.body
-      connection.query('SELECT * FROM estudiantes WHERE Correo = ? AND Contrasena = SHA1(?)', [Correo, Contrasena], (error,result,fields) => {
+      console.log(req.body)
+      connection.query('SELECT * FROM estudiante WHERE Correo = ? AND Contrasena = ?', [Correo, Contrasena], (error,result,fields) => {
           if(error){
+            console.log(error)
             res.status(500).json({mensaje : "Se presento un error en la consulta"})
           }else{
             if(result.length > 0){
