@@ -27,7 +27,7 @@ router.post('/estudiantes/Inicio', (req, res)=>{
             res.status(500).json({mensaje : "Se presento un error en la consulta"})
           }else{
             if(result.length > 0){
-               res.json({mensaje : 'El usuario supero la autenticación', Inicio : true, estudiantes : result[0]})
+               res.json({mensaje : 'El usuario supero la autenticación', login : true, estudiantes : result[0]})
             }else{
                res.json({mensaje : 'Este usuario no existe', login : false})
             }
