@@ -12,6 +12,8 @@ app.use(cors({origin: '*'}));
 //ROUTES
 app.use("/api/", require ('./routes/estudiantes'))
 app.use("/api/", require ('./routes/profesor'))
+app.use("/api/", require ('./routes/evaluacion'))
+
 
 app.get("/", (req,res) => {
   res.send("API CRUD")
