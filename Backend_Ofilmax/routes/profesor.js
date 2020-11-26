@@ -84,7 +84,7 @@ router.delete('/profesor/:correo', (req, res) => {
       if(result.affectedRows > 0)
         res.json({mensaje : "Profesor eliminado correctamente."})
       else
-        res.json({mensaje : "Profesor no existe con este correo o ya fue eliminado."})
+        res.json({mensaje : "profesor no existe con este correo o ya fue eliminado."})
     }
     })
   }catch(error){
