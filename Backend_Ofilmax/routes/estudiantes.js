@@ -16,11 +16,11 @@ router.get('/estudiante', (req, res) => {
 
 router.get('/estudiante/:correo', (req, res) => {
   let correo = req.params.correo
-  connection.query("SELECT * FROM estudiante WHERE Correo = ?",[Correo] ,(error, result, fields) => {
+  connection.query("SELECT * FROM estudiante WHERE Correo = ?",[correo] ,(error, result, fields) => {
     if(result[0])
       res.json(result[0])
     else
-      res.json({})
+      res.json({mensaje : "Error durante la consulta"})
    })
 })
 
@@ -49,13 +49,13 @@ router.post('/estudiante', (req, res) => {
 
 router.put('/estudiante/:correo', (req, res) => {
   try{
-    let Correo = req.params.correo
+    let correo = req.params.correo
     let {
       Contrasena,
       Numero_lista
     } = req.body
     const SQL = `UPDATE estudiante SET Contrasena = ?,Numero_lista = ? WHERE Correo = ?`
-    const data = [Contrasena, Numero_lista,Correo]
+    const data = [Contrasena, Numero_lista,correo]
     connection.query(SQL, data,(error, result, fields) => {
       if(error){
       console.log(error)
@@ -72,10 +72,10 @@ router.put('/estudiante/:correo', (req, res) => {
 
 router.delete('/estudiante/:correo', (req, res) => {
   try{
-    let   Correo = req.params.correo
+    let   correo = req.params.correo
   
     const SQL = `DELETE FROM estudiante WHERE Correo = ?`
-    const data = [Correo]
+    const data = [correo]
     connection.query(SQL, data,(error, result, fields) => {
       if(error){
       console.log(error)
