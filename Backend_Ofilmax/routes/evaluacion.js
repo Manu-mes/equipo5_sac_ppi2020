@@ -32,8 +32,8 @@ router.post('/evaluacion', (req, res) => {
       Correo,
       Id_puntaje
     } = req.body
-    const SQL = `INSERT INTO evaluacion (Fecha,Puntaje,Correo, Id_puntaje) VALUES(?,?,?)`
-    const data = [Fecha, Puntaje, Correo,Id_puntaje]
+    const SQL = `INSERT INTO evaluacion (Fecha,Puntaje, Correo, Id_puntaje) VALUES(?,?,?)`
+    const data = [Fecha,Puntaje,Correo,Id_puntaje]
     connection.query(SQL, data,(error, result, fields) => {
       if(error){
       console.log(error)
