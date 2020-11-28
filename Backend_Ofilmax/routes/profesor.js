@@ -1,6 +1,7 @@
 const {Router} = require('express')
 const router = Router()
-const {connection} = require('./../db/mysql')
+const {connection} = require('./../db/mysql_pool')
+
 
 router.get('/profesor', (req, res) => {
   connection.query("SELECT * FROM profesor", (error, result, fields) => {
@@ -15,11 +16,11 @@ router.get('/profesor', (req, res) => {
 
 router.get('/profesor/:correo', (req, res) => {
   let correo = req.params.correo
-  connection.query("SELECT * FROM profesor WHERE Correo = ?",[Correo] ,(error, result, fields) => {
+  connection.query("SELECT * FROM profesor WHERE Correo = ?",[correo] ,(error, result, fields) => {
     if(result[0])
       res.json(result[0])
     else
-      res.json({})
+      res.json({mensaje : "Error durante la consulta"})
    })
 })
 
@@ -37,7 +38,7 @@ router.post('/profesor', (req, res) => {
       console.log(error)
       res.status(500).json({mensaje : "Error durante la consulta"})
     }else{
-      res.json({mensaje : "Profesor insertado correctamente."})
+      res.json({mensaje : "profesor insertado correctamente."})
     }
     })
   }catch(error){
@@ -82,9 +83,9 @@ router.delete('/profesor/:correo', (req, res) => {
     }else{
       console.log(result)
       if(result.affectedRows > 0)
-        res.json({mensaje : "Profesor eliminado correctamente."})
+        res.json({mensaje : "profesor eliminado correctamente."})
       else
-        res.json({mensaje : "profesor no existe con este correo o ya fue eliminado."})
+        res.json({mensaje : "estudiante no existe con este correo o ya fue eliminado."})
     }
     })
   }catch(error){
