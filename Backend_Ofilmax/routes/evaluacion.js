@@ -57,7 +57,7 @@ router.put('/evaluacion/:fecha', (req, res) => {
       Id_puntaje
     } = req.body
     const SQL = `UPDATE evaluacion SET Puntaje = ?,Correo = ?, Id_puntaje = ?, WHERE Fecha = ?`
-    const data = [Puntaje, Correo,Id_puntaje, Fecha]
+    const data = [Puntaje, Correo, Id_puntaje,fecha]
     connection.query(SQL, data,(error, result, fields) => {
       if(error){
       console.log(error)
